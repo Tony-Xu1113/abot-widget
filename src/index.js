@@ -1,116 +1,87 @@
 import { createApp } from "vue";
 import ChatWindow from "./ChatWindow.vue";
-import "./styles/index.css";
 
-// 自动初始化函数
-function autoInit() {
-  // 获取当前script标签
-  const currentScript = document.currentScript;
-  if (!currentScript) return;
+// 主初始化函数
+function initABot() {
+  console.log("🚀 ABot开始初始化");
 
-  // 从URL参数解析配置
-  const scriptUrl = currentScript.src;
-  const url = new URL(scriptUrl);
-  const configId = url.searchParams.get("config");
+  // 1. 从URL获取config参数
+  let configId = getConfigFromURL();
+  console.log("📝 获取到Config ID:", configId);
 
-  if (!configId) {
-    console.error("ABot: Missing config parameter in script URL");
-    return;
-  }
+  // 2. 创建容器
+  const containerId = `abot-container-${configId}`;
+  createContainer(containerId);
 
-  // 自动初始化
-  initWidget(configId);
-}
-
-// 初始化组件
-async function initWidget(configId) {
-  try {
-    // // 1. 确保Vue可用（自动加载如果不存在）
-    // await loadVueIfNeeded();
-
-    // 2. 获取用户配置
-    const userConfig = await fetchUserConfig(configId);
-
-    // 3. 创建容器
-    const containerId = `abot-container-${configId}`;
-    createContainer(containerId);
-
-    // 4. 创建并挂载Vue应用
-    const app = createApp(ChatWindow, {
-      config: userConfig,
-      containerId: containerId,
-    });
-
-    app.mount(`#${containerId}`);
-
-    console.log("✅ ABot客服组件加载成功", userConfig);
-  } catch (error) {
-    console.error("❌ ABot初始化失败:", error);
-  }
-}
-
-// 自动加载Vue（如果页面中不存在）
-function loadVueIfNeeded() {
-  return new Promise((resolve) => {
-    if (window.Vue) {
-      resolve();
-      return;
-    }
+  // 3. 创建Vue应用
+  const app = createApp(ChatWindow, {
+    config: {
+      configId: configId,
+      theme: "light",
+      position: "bottom-right",
+      primaryColor: "#1890ff",
+      headerText: "在线客服",
+      autoOpen: true,
+    },
+    containerId: containerId,
   });
+
+  app.mount(`#${containerId}`);
+  console.log("✅ ABot初始化完成");
 }
 
-// 获取用户配置
-async function fetchUserConfig(configId) {
-//   try {
-//     const response = await fetch(
-//       `https://api.yourdomain.com/configs/${configId}`
-//     );
-//     if (!response.ok) throw new Error("配置获取失败");
-//     return await response.json();
-//   } catch (error) {
-    // 降级方案：使用默认配置
-    console.warn("使用默认配置:", error);
-    return getDefaultConfig(configId);
-//  }
+// 从URL获取config参数的函数
+function getConfigFromURL() {
+  // 方法：查找所有script标签，找到包含widget.js的那个
+  const scripts = document.getElementsByTagName("script");
+
+  for (let script of scripts) {
+    if (script.src && script.src.includes("widget.js")) {
+      try {
+        const url = new URL(script.src);
+        const configId = url.searchParams.get("config");
+        return configId || "default";
+      } catch (error) {
+        console.warn("URL解析失败，使用默认config");
+        return "default";
+      }
+    }
+  }
+
+  return "default";
 }
 
-// 默认配置
-function getDefaultConfig(configId) {
-  return {
-    configId: configId,
-    theme: "light",
-    position: "bottom-right",
-    primaryColor: "#1890ff",
-    headerText: "在线客服",
-    autoOpen: false,
-    apiUrl: "https://api.yourdomain.com",
-  };
-}
-
-// 创建DOM容器
+// 创建容器的函数
 function createContainer(containerId) {
   if (document.getElementById(containerId)) return;
 
   const container = document.createElement("div");
   container.id = containerId;
-  container.className = "abot-widget-container";
   document.body.appendChild(container);
+  console.log("📦 创建容器:", containerId);
 }
 
-// 也提供手动初始化方法（兼容性）
+// 手动初始化方法
 window.ABot = {
   init: function (userConfig) {
-    if (userConfig.configId) {
-      initWidget(userConfig.configId);
-    } else {
-      console.error("ABot.init: configId is required");
-    }
+    const configId = userConfig.configId || "manual";
+    const containerId = `abot-container-${configId}`;
+
+    createContainer(containerId);
+
+    const app = createApp(ChatWindow, {
+      config: { ...userConfig, configId: configId },
+      containerId: containerId,
+    });
+
+    app.mount(`#${containerId}`);
+    console.log("✅ 手动初始化完成");
   },
 };
 
-// 页面加载完成后自动初始化
+// 页面加载后自动初始化
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", autoInit);
+  document.addEventListener("DOMContentLoaded", initABot);
 } else {
-  autoInit();
+  initABot();
 }
