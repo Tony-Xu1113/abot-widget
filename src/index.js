@@ -61,17 +61,17 @@ function loadVueIfNeeded() {
 
 // 获取用户配置
 async function fetchUserConfig(configId) {
-  try {
-    const response = await fetch(
-      `https://api.yourdomain.com/configs/${configId}`
-    );
-    if (!response.ok) throw new Error("配置获取失败");
-    return await response.json();
-  } catch (error) {
+//   try {
+//     const response = await fetch(
+//       `https://api.yourdomain.com/configs/${configId}`
+//     );
+//     if (!response.ok) throw new Error("配置获取失败");
+//     return await response.json();
+//   } catch (error) {
     // 降级方案：使用默认配置
     console.warn("使用默认配置:", error);
     return getDefaultConfig(configId);
-  }
+//  }
 }
 
 // 默认配置

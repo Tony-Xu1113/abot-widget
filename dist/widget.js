@@ -4891,16 +4891,7 @@ async function Rs(e) {
   }
 }
 async function nf(e) {
-  try {
-    const t = await fetch(
-      `https://api.yourdomain.com/configs/${e}`
-    );
-    if (!t.ok)
-      throw new Error("配置获取失败");
-    return await t.json();
-  } catch (t) {
-    return console.warn("使用默认配置:", t), of(e);
-  }
+  return console.warn("使用默认配置:", error), of(e);
 }
 function of(e) {
   return {
