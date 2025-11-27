@@ -1,17 +1,34 @@
+// vite.config.js
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import { resolve } from "path";
 
 export default defineConfig({
-  plugins: [vue()],
-  define: {
-    // 关键：完全模拟Node.js的process环境
-    "process.env.NODE_ENV": JSON.stringify("production"),
-    "process.env": JSON.stringify({
-      NODE_ENV: "production",
+  plugins: [
+    vue({
+      template: {
+        transformAssetUrls: false, // 禁用资源 URL 转换
+      },
     }),
-    global: "window", // 添加这个
-    globalThis: "window", // 添加这个
+  ],
+  define: {
+    "process.env.NODE_ENV": JSON.stringify("production"),
+    global: "window",
+  },
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "src"),
+      vue: "vue/dist/vue.esm-bundler.js",
+      "vue-i18n": "vue-i18n/dist/vue-i18n.esm-bundler.js",
+    },
+  },
+  css: {
+    preprocessorOptions: {
+      less: {
+        additionalData: `@import "@/design/font.less";@import "@/design/color.less";`,
+        javascriptEnabled: true,
+      },
+    },
   },
   build: {
     lib: {
@@ -20,10 +37,20 @@ export default defineConfig({
       fileName: "widget",
     },
     rollupOptions: {
-      // 不设置external，让Vue打包进最终文件
       output: {
         format: "umd",
+        // 关键：将 CSS 内联到 JS 中
+        assetFileNames: (assetInfo) => {
+          // 将 CSS 文件也命名为 .js，强制内联
+          if (assetInfo.name === "style.css") {
+            return "widget.css";
+          }
+          return assetInfo.name;
+        },
       },
     },
+    cssCodeSplit: false,
+    sourcemap: true,
+    minify: false,
   },
 });
