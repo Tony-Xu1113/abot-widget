@@ -16549,14 +16549,35 @@
       setLanguage
     };
   }
-  var MessageType$1 = /* @__PURE__ */ ((MessageType2) => {
+  var MessageType = /* @__PURE__ */ ((MessageType2) => {
     MessageType2["QU"] = "queueUpdate";
     MessageType2["CC"] = "chatConnect";
+    MessageType2["CD"] = "chatDisconnect";
+    MessageType2["ET"] = "eventTerminate";
     MessageType2["TEXT"] = "text";
     MessageType2["BINARY"] = "binary";
     MessageType2["RECOM"] = "recommendations";
     return MessageType2;
-  })(MessageType$1 || {});
+  })(MessageType || {});
+  var SenderType = /* @__PURE__ */ ((SenderType2) => {
+    SenderType2["AGENT"] = "agent";
+    SenderType2["CUSTOM"] = "custom";
+    SenderType2["SYS"] = "system";
+    return SenderType2;
+  })(SenderType || {});
+  var ChatStatus = /* @__PURE__ */ ((ChatStatus2) => {
+    ChatStatus2[ChatStatus2["WAITING"] = 0] = "WAITING";
+    ChatStatus2[ChatStatus2["ROBOT"] = 1] = "ROBOT";
+    ChatStatus2[ChatStatus2["AGENT"] = 2] = "AGENT";
+    ChatStatus2[ChatStatus2["TERMINATION"] = 3] = "TERMINATION";
+    return ChatStatus2;
+  })(ChatStatus || {});
+  var SenderIdType = /* @__PURE__ */ ((SenderIdType2) => {
+    SenderIdType2[SenderIdType2["SYS"] = -1] = "SYS";
+    SenderIdType2[SenderIdType2["TO_AGENT"] = -2] = "TO_AGENT";
+    SenderIdType2[SenderIdType2["TO_CUSTOM"] = -3] = "TO_CUSTOM";
+    return SenderIdType2;
+  })(SenderIdType || {});
   const PACKET_TYPES = /* @__PURE__ */ Object.create(null);
   PACKET_TYPES["open"] = "0";
   PACKET_TYPES["close"] = "1";
@@ -19926,6 +19947,175 @@
       isConnected
     };
   }
+  const translations = {
+    "en-US": {
+      "session.chat.time": "{month}/{day} {hour}:{minute}",
+      "session.chat.button.placeholder": "Please input ...",
+      "session.chat.button.lineBreak": "Press Shift+Enter to line break",
+      "common.send": "Save",
+      "session.chat.down": " has closed connections",
+      "session.chat.up": " is ready to serve you!",
+      "chat.terminate": "Chat is terminated"
+    },
+    "zh-CN": {
+      "session.chat.time": "{month}月{day}日 {hour}:{minute}",
+      "session.chat.button.placeholder": "请输入消息...",
+      "session.chat.button.lineBreak": "按Shift+Enter换行",
+      "common.send": "发送",
+      "session.chat.down": "已下线",
+      "session.chat.up": "已准备为您服务！",
+      "chat.terminate": "会话已关闭"
+    },
+    "zh-TW": {
+      "session.chat.time": "{month}月{day}日 {hour}:{minute}",
+      "session.chat.button.placeholder": "請輸入消息...",
+      "session.chat.button.lineBreak": "按Shift+Enter換行",
+      "common.send": "發送",
+      "session.chat.down": "已下線",
+      "session.chat.up": "已準備為您服務！",
+      "chat.terminate": "会话已关闭"
+    }
+  };
+  let currentLocale = "zh-CN";
+  const t = (key, params = {}) => {
+    var _a;
+    const text = ((_a = translations[currentLocale]) == null ? void 0 : _a[key]) || translations["zh-CN"][key] || key;
+    return Object.entries(params).reduce((result, [k, v]) => {
+      return result.replace(new RegExp(`{${k}}`, "g"), v);
+    }, text);
+  };
+  const i18nPlugin = {
+    install(app) {
+      app.config.globalProperties.$t = t;
+      app.provide("i18n", { t, locale: { value: currentLocale } });
+    }
+  };
+  const useI18n = () => ({
+    t,
+    locale: { value: currentLocale }
+  });
+  const useChatStore = /* @__PURE__ */ defineStore("chat-store", () => {
+    const state = reactive({
+      chatId: "0",
+      chatStatus: ChatStatus.TERMINATION,
+      channelId: "0",
+      currentAgent: "agent-0",
+      chatInfo: [],
+      sendDisable: true
+    });
+    const { t: t2 } = useI18n();
+    const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
+    const channel = localStorage.getItem("__ABOT_CHANNEL__");
+    const ws = useSocketIO(
+      `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
+    );
+    const loadOldChat = (data) => {
+      const oldChat = data.filter((i) => i.messageType !== MessageType.CC).map((r) => ({
+        avatar: r.avatar,
+        content: r.content,
+        contentType: r.contentType,
+        sequenceId: r.sequenceId,
+        timestamp: r.timestamp,
+        sender: r.senderType,
+        username: r.senderName
+      }));
+      state.chatInfo.push(...oldChat.reverse());
+    };
+    const wsConnect = async () => {
+      try {
+        console.log("Socket开始连接...", state.channelId);
+        await ws.connect();
+        ws.on("message", (data) => {
+          const sourceData = JSON.parse(data);
+          console.log("收到源消息：");
+          console.log(sourceData);
+          if (sourceData.messageType === MessageType.CC) {
+            state.chatId = sourceData.chatId;
+            state.chatStatus = 2;
+            state.currentAgent = sourceData.content.split("-")[1];
+            state.sendDisable = false;
+            const thisChat = {
+              avatar: "0",
+              content: sourceData.content + t2("session.chat.up"),
+              contentType: sourceData.contentType,
+              sequenceId: sourceData.sequenceId,
+              timestamp: sourceData.timestamp,
+              sender: sourceData.senderType,
+              username: sourceData.senderName ?? "System"
+            };
+            state.chatInfo.push(thisChat);
+          } else if (sourceData.messageType === MessageType.CD) {
+            const thisChat = {
+              avatar: "0",
+              content: sourceData.content + t2("session.chat.down"),
+              contentType: sourceData.contentType,
+              sequenceId: sourceData.sequenceId,
+              timestamp: sourceData.timestamp,
+              sender: sourceData.senderType,
+              username: sourceData.senderName ?? "System"
+            };
+            state.chatInfo.push(thisChat);
+            state.sendDisable = true;
+          } else if (sourceData.messageType === MessageType.TEXT) {
+            if (sourceData.senderType === SenderType.SYS && sourceData.senderId === SenderIdType.TO_AGENT) {
+              return;
+            }
+            const thisChat = {
+              avatar: sourceData.avatar ?? "0",
+              content: sourceData.content,
+              contentType: sourceData.contentType,
+              sequenceId: sourceData.sequenceId,
+              timestamp: sourceData.timestamp,
+              sender: sourceData.senderType,
+              username: sourceData.senderName
+            };
+            state.chatInfo.push(thisChat);
+            console.log(
+              "从" + state.currentAgent + "收到消息:" + sourceData.content
+            );
+          } else if (sourceData.messageType === MessageType.ET) {
+            const thisChat = {
+              avatar: "0",
+              content: t2("chat.terminate"),
+              contentType: sourceData.contentType,
+              sequenceId: sourceData.sequenceId,
+              timestamp: sourceData.timestamp,
+              sender: SenderType.SYS,
+              username: "System"
+            };
+            state.chatInfo.push(thisChat);
+          }
+        });
+        ws.on("connect_error", (error) => {
+          console.error("❌ Socket.IO 连接错误:", error);
+        });
+        ws.on("connect_timeout", (timeout) => {
+          console.error("⏰ Socket.IO 连接超时:", timeout);
+        });
+        ws.on("error", (error) => {
+          console.error("🚨 Socket.IO 错误:", error);
+        });
+        ws.on("disconnect", (reason) => {
+          console.log("🔌 Socket.IO 断开连接:", reason);
+        });
+      } catch (error) {
+        console.error("连接失败", error);
+      }
+    };
+    const wsSend = async (query) => {
+      ws.emit("message", JSON.stringify(query));
+    };
+    const wsClose = () => {
+      ws.disconnect();
+    };
+    return {
+      ...toRefs(state),
+      wsConnect,
+      wsClose,
+      wsSend,
+      loadOldChat
+    };
+  });
   var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof window !== "undefined" ? window : typeof self !== "undefined" ? self : {};
   function getDefaultExportFromCjs(x) {
     return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default") ? x["default"] : x;
@@ -20222,74 +20412,6 @@
   })(dayjs_min);
   var dayjs_minExports = dayjs_min.exports;
   const dayjs = /* @__PURE__ */ getDefaultExportFromCjs(dayjs_minExports);
-  var MessageType = /* @__PURE__ */ ((MessageType2) => {
-    MessageType2["QU"] = "queueUpdate";
-    MessageType2["CC"] = "chatConnect";
-    MessageType2["TEXT"] = "text";
-    MessageType2["BINARY"] = "binary";
-    MessageType2["RECOM"] = "recommendations";
-    return MessageType2;
-  })(MessageType || {});
-  const useChatStore = /* @__PURE__ */ defineStore("chat-store", () => {
-    const state = reactive({
-      chatId: "0",
-      chatStatus: 3,
-      channelId: "0",
-      currentAgent: "agent-0",
-      chatInfo: []
-    });
-    const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
-    const channel = localStorage.getItem("__ABOT_CHANNEL__");
-    const ws = useSocketIO(
-      `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
-    );
-    const wsConnect = async () => {
-      try {
-        console.log("Socket开始连接...", state.channelId);
-        await ws.connect();
-        ws.on("message", (data) => {
-          const sourceData = JSON.parse(data);
-          console.log("收到源消息：");
-          console.log(sourceData);
-          if (sourceData.messageType === MessageType.CC) {
-            state.chatId = sourceData.chatId;
-            state.chatStatus = 2;
-            state.currentAgent = sourceData.content.split("-")[1];
-          } else if (sourceData.messageType === MessageType.TEXT) {
-            console.log(
-              "从" + state.currentAgent + "收到消息:" + sourceData.content
-            );
-          }
-        });
-        ws.on("connect_error", (error) => {
-          console.error("❌ Socket.IO 连接错误:", error);
-        });
-        ws.on("connect_timeout", (timeout) => {
-          console.error("⏰ Socket.IO 连接超时:", timeout);
-        });
-        ws.on("error", (error) => {
-          console.error("🚨 Socket.IO 错误:", error);
-        });
-        ws.on("disconnect", (reason) => {
-          console.log("🔌 Socket.IO 断开连接:", reason);
-        });
-      } catch (error) {
-        console.error("连接失败", error);
-      }
-    };
-    const wsSend = async (query) => {
-      ws.emit("message", JSON.stringify(query));
-    };
-    const wsClose = () => {
-      ws.disconnect();
-    };
-    return {
-      ...toRefs(state),
-      wsConnect,
-      wsClose,
-      wsSend
-    };
-  });
   function useChatInput() {
     const inputText = ref("");
     const textareaRef = ref();
@@ -20324,15 +20446,27 @@
       const message = inputText.value.trim();
       if (!message)
         return;
+      const currentTime = dayjs().format("YYYY-MM-DD HH:mm:ss");
       console.log("发送消息:", message);
       const query = {
         chatId: cStore.chatId,
-        messageType: MessageType$1.TEXT,
+        messageType: MessageType.TEXT,
         language: getUCLang(),
         contentType: "text/plain",
         content: message,
-        timestamp: dayjs().format("YYYY-MM-DD HH:mm:ss")
+        timestamp: currentTime
       };
+      const thisChat = {
+        avatar: "1",
+        // 网页渠道客户默认头像
+        content: message,
+        contentType: "text/plain",
+        sequenceId: "unknown",
+        timestamp: currentTime,
+        sender: "custom",
+        username: "custom"
+      };
+      cStore.chatInfo.push(thisChat);
       cStore.wsSend(query);
       inputText.value = "";
       resetHeight();
@@ -20364,18 +20498,24 @@
       }
     },
     setup() {
+      const cStore = useChatStore();
+      const sendDisabled = computed(() => cStore.sendDisable);
       const { inputText, textareaRef, handleKeydown, autoResize, sendMessage } = useChatInput();
       const handleSend = () => {
         sendMessage();
       };
-      return { handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage };
+      return { cStore, sendDisabled, handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage };
     }
   });
-  const CustomerInputCard_vue_vue_type_style_index_0_scoped_27f50aad_lang = "";
+  const CustomerInputCard_vue_vue_type_style_index_0_scoped_ddc49f7e_lang = "";
   const _hoisted_1$9 = { class: "chat-input-card" };
   const _hoisted_2$3 = ["placeholder"];
   const _hoisted_3$2 = { class: "send-button-container" };
   const _hoisted_4$1 = { class: "w-400 s-12 l-20 text-4" };
+  const _hoisted_5 = {
+    key: 0,
+    class: "disable-mask"
+  };
   function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_CustomerInputToolbar = resolveComponent("CustomerInputToolbar");
     const _component_PrimaryButton = resolveComponent("PrimaryButton");
@@ -20399,10 +20539,11 @@
           onClick: _ctx.handleSend,
           "force-color": _ctx.color
         }, null, 8, ["onClick", "force-color"])
-      ])
+      ]),
+      _ctx.sendDisabled || _ctx.cStore.chatStatus === 3 ? (openBlock(), createElementBlock("div", _hoisted_5)) : createCommentVNode("", true)
     ]);
   }
-  const CustomerInputCard = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-27f50aad"]]);
+  const CustomerInputCard = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-ddc49f7e"]]);
   const _sfc_main$8 = /* @__PURE__ */ defineComponent({
     name: "TimeStamp",
     props: {
@@ -20548,14 +20689,17 @@
       return { color: color2 };
     }
   });
-  const CustomerContent_vue_vue_type_style_index_0_scoped_079a325a_lang = "";
+  const CustomerContent_vue_vue_type_style_index_0_scoped_d1e6fcc1_lang = "";
   const _hoisted_1$4 = { class: "chat-content" };
   const _hoisted_2$1 = { class: "main-chat-wrapper" };
   const _hoisted_3 = {
     key: 0,
     class: "w-500 s-12 l-20 username-label"
   };
-  const _hoisted_4 = { class: "w-400 s-14 l-20" };
+  const _hoisted_4 = {
+    class: "w-400 s-14 l-20",
+    style: { "white-space": "pre-line" }
+  };
   function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_TimeStamp = resolveComponent("TimeStamp");
     const _component_ChannelAvatar = resolveComponent("ChannelAvatar");
@@ -20583,7 +20727,7 @@
       ], 2)
     ]);
   }
-  const CustomerContent = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-079a325a"]]);
+  const CustomerContent = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-d1e6fcc1"]]);
   const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     name: "CustomContainer",
     components: { CustomerContent },
@@ -20594,22 +20738,51 @@
       }
     },
     setup() {
-      const testCurrentBox = [
-        { sequenceId: 1, username: "user_fak3", avatar: "1", content: "asdawewadkc", timestamp: "2025-07-08 12:34:56", isFirst: true, isMe: true },
-        { sequenceId: 2, username: "客服一号", avatar: "5", content: "你在说什么？", timestamp: "2025-07-08 12:42:16", isFirst: true, isMe: false },
-        { sequenceId: 4, username: "客服一号", avatar: "5", content: "你是机器人吗？", timestamp: "2025-07-08 12:42:37", isFirst: false, isMe: false },
-        { sequenceId: 5, username: "user_fak3", avatar: "1", content: "刚才猫爬键盘上了", timestamp: "2025-07-08 12:42:56", isFirst: true, isMe: true }
-      ];
-      return { testCurrentBox };
+      const cStore = useChatStore();
+      const chatRef = ref();
+      const currentChatBox = computed(() => {
+        const chats = cStore.chatInfo;
+        return chats.map((chat, index) => {
+          const previousChat = index > 0 ? chats[index - 1] : null;
+          return {
+            ...chat,
+            isFirst: !previousChat || chat.sender !== previousChat.sender,
+            isMe: chat.sender === "custom"
+          };
+        });
+      });
+      const scrollToBottom = () => {
+        const scrollContainer = chatRef.value;
+        if (scrollContainer) {
+          scrollContainer.scrollTo({
+            top: scrollContainer.scrollHeight,
+            behavior: "smooth"
+          });
+        }
+      };
+      watch(() => currentChatBox.value, () => {
+        nextTick$1(() => {
+          scrollToBottom();
+        });
+      });
+      onMounted(() => {
+        nextTick$1(() => {
+          scrollToBottom();
+        });
+      });
+      return { currentChatBox, chatRef };
     }
   });
-  const CustomerContainer_vue_vue_type_style_index_0_scoped_637449cf_lang = "";
-  const _hoisted_1$3 = { class: "chat-container" };
+  const CustomerContainer_vue_vue_type_style_index_0_scoped_0bd73be3_lang = "";
+  const _hoisted_1$3 = {
+    class: "chat-container",
+    ref: "chatRef"
+  };
   function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_CustomerContent = resolveComponent("CustomerContent");
     return openBlock(), createElementBlock("div", _hoisted_1$3, [
       _cache[0] || (_cache[0] = createBaseVNode("div", null, null, -1)),
-      (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.testCurrentBox, (chat) => {
+      (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.currentChatBox, (chat) => {
         return openBlock(), createBlock(_component_CustomerContent, {
           key: chat.sequenceId,
           username: chat.username,
@@ -20621,9 +20794,9 @@
           "bubble-color": _ctx.color
         }, null, 8, ["username", "avatar", "text", "timestamp", "is-first", "is-me", "bubble-color"]);
       }), 128))
-    ]);
+    ], 512);
   }
-  const CustomerContainer = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__scopeId", "data-v-637449cf"]]);
+  const CustomerContainer = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__scopeId", "data-v-0bd73be3"]]);
   const _hoisted_1$2 = ["width", "height"];
   const _hoisted_2 = ["stroke"];
   const _sfc_main$2 = /* @__PURE__ */ defineComponent({
@@ -20865,6 +21038,7 @@
           if (latestChatData.data !== null) {
             cStore.chatId = latestChatData.data.chatId;
             cStore.chatStatus = latestChatData.data.status;
+            cStore.sendDisable = latestChatData.data.status === 0 ? true : false;
           }
         }
         if (cStore.chatId !== "0") {
@@ -20872,6 +21046,7 @@
           const history = await getChatHistory(cStore.chatId, props.config.configId);
           const historyData = await history.json();
           console.log(historyData.data);
+          cStore.loadOldChat(historyData.data);
         }
         await cStore.wsConnect();
       });
@@ -20918,7 +21093,7 @@
       };
     }
   });
-  const CustomerWindow_vue_vue_type_style_index_0_scoped_97a17485_lang = "";
+  const CustomerWindow_vue_vue_type_style_index_0_scoped_83e11129_lang = "";
   const _hoisted_1 = ["src"];
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_ChatDialog = resolveComponent("ChatDialog");
@@ -20966,47 +21141,9 @@
       }, null, 8, ["props"])) : createCommentVNode("", true)
     ], 4);
   }
-  const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-97a17485"]]);
+  const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-83e11129"]]);
   const font = "";
   const color = "";
-  const translations = {
-    "en-US": {
-      "session.chat.time": "{month}/{day} {hour}:{minute}",
-      "session.chat.button.placeholder": "Please input ...",
-      "session.chat.button.lineBreak": "Press Shift+Enter to line break",
-      "common.send": "Save"
-    },
-    "zh-CN": {
-      "session.chat.time": "{month}月{day}日 {hour}:{minute}",
-      "session.chat.button.placeholder": "请输入消息...",
-      "session.chat.button.lineBreak": "按Shift+Enter换行",
-      "common.send": "发送"
-    },
-    "zh-TW": {
-      "session.chat.time": "{month}月{day}日 {hour}:{minute}",
-      "session.chat.button.placeholder": "請輸入消息...",
-      "session.chat.button.lineBreak": "按Shift+Enter換行",
-      "common.send": "發送"
-    }
-  };
-  let currentLocale = "zh-CN";
-  const t = (key, params = {}) => {
-    var _a;
-    const text = ((_a = translations[currentLocale]) == null ? void 0 : _a[key]) || translations["zh-CN"][key] || key;
-    return Object.entries(params).reduce((result, [k, v]) => {
-      return result.replace(new RegExp(`{${k}}`, "g"), v);
-    }, text);
-  };
-  const i18nPlugin = {
-    install(app) {
-      app.config.globalProperties.$t = t;
-      app.provide("i18n", { t, locale: { value: currentLocale } });
-    }
-  };
-  const useI18n = () => ({
-    t,
-    locale: { value: currentLocale }
-  });
   window.useI18n = useI18n;
   async function initABot() {
     console.log("🚀 ABot开始初始化");

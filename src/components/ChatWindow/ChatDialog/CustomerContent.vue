@@ -11,7 +11,7 @@
         <span v-if="isFirst && !isMe" class="w-500 s-12 l-20 username-label">{{ username }}</span>
         <div class="main-chat-bubble" :class="{ 'my-chat': isMe, 'first-chat': isFirst }"
           :style="{ '--bubble-color': color }">
-          <span class="w-400 s-14 l-20">{{ text }}</span>
+          <span class="w-400 s-14 l-20" :style="{ 'white-space': 'pre-line' }">{{ text }}</span>
         </div>
       </div>
     </div>

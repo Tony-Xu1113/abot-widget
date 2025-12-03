@@ -31,8 +31,3 @@ export enum ChatFunctionType {
   SESSION = "sessionRecord",
   ORDER = "orderRecord",
 }
-
-export enum ChannelType {
-  WEBSITE = 1,
-  TELEGRAM = 2,
-}

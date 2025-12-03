@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="abot-chat-window" :style="chatWindowStyle">
         <h3>🎯 ABot客服组件</h3>
         <p>Username: {{ getUsername }}</p>
@@ -57,27 +57,7 @@ interface MessageType {
         String MSG_GRADE_CHAT = "gradeChat";
     }
 */
-export enum MessageType {
-    QU = 'queueUpdate',
-    CC = 'chatConnect',
-    TEXT = 'text',
-    BINARY = 'binary',
-    RECOM = 'recommendations',
-}
 
-export enum QueueType {
-    SERVING = 'SERVING',
-    WAITING = 'WAITING',
-}
-
-export enum ActionType {
-    ADD = 'ADD',
-}
-
-export enum ChannelType {
-    WEBSITE = 1,
-    TELEGRAM = 2,
-}
 
 export default defineComponent({
     name: 'ChatWindow',
@@ -225,4 +205,4 @@ export default defineComponent({
         }
     }
 })
-</script>
+</script> -->

@@ -7,14 +7,17 @@
       <span class="w-400 s-12 l-20 text-4">{{ $t('session.chat.button.lineBreak') }}</span>
       <PrimaryButton size="small" label="common.send" @click="handleSend" :force-color="color" />
     </div>
+    <div v-if="sendDisabled || cStore.chatStatus === 3" class="disable-mask"></div>
   </div>
+
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
 import CustomerInputToolbar from "./CustomerInputToolbar.vue";
 import PrimaryButton from "../../button/PrimaryButton.vue";
 import { useChatInput } from "../../../hooks/useChatInput";
+import { useChatStore } from "../../../store/chat";
 
 export default defineComponent({
   name: "CustomerInputCard",
@@ -26,6 +29,9 @@ export default defineComponent({
     }
   },
   setup() {
+    const cStore = useChatStore()
+
+    const sendDisabled = computed(() => cStore.sendDisable)
 
     const { inputText, textareaRef, handleKeydown, autoResize, sendMessage } = useChatInput()
 
@@ -33,19 +39,30 @@ export default defineComponent({
       sendMessage()
     }
 
-    return { handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage }
+    return { cStore, sendDisabled, handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage }
   }
 })
 </script>
 
 <style lang="less" scoped>
 .chat-input-card {
+  position: relative;
   border-radius: 4px;
   width: calc(100% - 40px);
   height: 172px;
   margin: 8px;
   padding: 10px 12px;
   background-color: white;
+}
+
+.disable-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #00000019;
+  top: 0;
+  left: 0;
 }
 
 .send-button-container {

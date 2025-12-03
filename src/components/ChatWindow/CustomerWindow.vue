@@ -117,6 +117,7 @@ export default defineComponent({
         if (latestChatData.data !== null) {
           cStore.chatId = latestChatData.data.chatId
           cStore.chatStatus = latestChatData.data.status
+          cStore.sendDisable = latestChatData.data.status === 0 ? true : false
         }
       }
 
@@ -125,7 +126,7 @@ export default defineComponent({
         const history = await getChatHistory(cStore.chatId, props.config.configId)
         const historyData = await history.json();
         console.log(historyData.data)
-        // cStore.loadOldChat(historyData.data)
+        cStore.loadOldChat(historyData.data)
       }
 
       await cStore.wsConnect()

@@ -1,16 +1,17 @@
 <template>
-  <div class="chat-container">
+  <div class="chat-container" ref="chatRef">
     <!-- 顶部留空 -->
     <div></div>
-    <CustomerContent v-for="chat in testCurrentBox" :key="chat.sequenceId" :username="chat.username"
+    <CustomerContent v-for="chat in currentChatBox" :key="chat.sequenceId" :username="chat.username"
       :avatar="chat.avatar" :text="chat.content" :timestamp="chat.timestamp" :is-first="chat.isFirst" :is-me="chat.isMe"
       :bubble-color="color" />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { ref, computed, defineComponent, onMounted, watch, nextTick } from "vue";
 import CustomerContent from "./CustomerContent.vue";
+import { useChatStore } from "../../../store/chat";
 
 export default defineComponent({
   name: "CustomContainer",
@@ -22,14 +23,41 @@ export default defineComponent({
     }
   },
   setup() {
-    const testCurrentBox = [
-      { sequenceId: 1, username: 'user_fak3', avatar: '1', content: 'asdawewadkc', timestamp: '2025-07-08 12:34:56', isFirst: true, isMe: true },
-      { sequenceId: 2, username: '客服一号', avatar: '5', content: '你在说什么？', timestamp: '2025-07-08 12:42:16', isFirst: true, isMe: false },
-      { sequenceId: 4, username: '客服一号', avatar: '5', content: '你是机器人吗？', timestamp: '2025-07-08 12:42:37', isFirst: false, isMe: false },
-      { sequenceId: 5, username: 'user_fak3', avatar: '1', content: '刚才猫爬键盘上了', timestamp: '2025-07-08 12:42:56', isFirst: true, isMe: true },
-    ]
+    const cStore = useChatStore()
+    const chatRef = ref()
 
-    return { testCurrentBox }
+    const currentChatBox = computed(() => {
+      const chats = cStore.chatInfo
+      return chats.map((chat, index) => {
+        const previousChat = index > 0 ? chats[index - 1] : null
+
+        return {
+          ...chat,
+          isFirst: !previousChat || chat.sender !== previousChat.sender,
+          isMe: chat.sender === 'custom',
+        }
+      })
+    })
+
+    const scrollToBottom = () => {
+      const scrollContainer = chatRef.value
+      if (scrollContainer) {
+        scrollContainer.scrollTo({
+          top: scrollContainer.scrollHeight,
+          behavior: 'smooth'
+        })
+      }
+    }
+
+    watch(() => currentChatBox.value, () => {
+      nextTick(() => { scrollToBottom() })
+    })
+
+    onMounted(() => {
+      nextTick(() => { scrollToBottom() })
+    })
+
+    return { currentChatBox, chatRef }
   }
 })
 </script>

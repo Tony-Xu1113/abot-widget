@@ -1,9 +1,5 @@
-// composables/useChatInput.ts
-// import { useChatStore } from '@/stores/modules/session/chat'
-// import {  useSessionStore } from '@/stores/modules/session/session'
 import { ref, nextTick } from "vue";
 import { useLang } from "./useLang";
-import { getCurrentTimeString } from "../utils/getTimeDiffDisplay";
 import { MessageType } from "../enum/chatEnum";
 import { useChatStore } from "../store/chat";
 import dayjs from "dayjs";
@@ -48,6 +44,8 @@ export function useChatInput() {
     const message = inputText.value.trim();
     if (!message) return;
 
+    const currentTime = dayjs().format("YYYY-MM-DD HH:mm:ss");
+
     console.log("发送消息:", message);
     const query = {
       chatId: cStore.chatId,
@@ -55,46 +53,23 @@ export function useChatInput() {
       language: getUCLang(),
       contentType: "text/plain",
       content: message,
-      timestamp: dayjs().format("YYYY-MM-DD HH:mm:ss"),
+      timestamp: currentTime,
     };
 
-    // 记得本地存储，然后显示
+    const thisChat = {
+      avatar: "1", // 网页渠道客户默认头像
+      content: message,
+      contentType: "text/plain",
+      sequenceId: "unknown",
+      timestamp: currentTime,
+      sender: "custom",
+      username: "custom",
+    };
+
+    // 本地存储
+    cStore.chatInfo.push(thisChat);
 
     cStore.wsSend(query);
-
-    /*
-
-    // websocket
-    const sStore = useSessionStore();
-    const { getUCLang } = useLang();
-    const cStore = useChatStore();
-    // 整理数据
-    const query = {
-      chatId: cStore.getSelectChat(),
-      messageType: MessageType.TEXT,
-      language: getUCLang.value,
-      contentType: "text/plain",
-      content: message,
-      timestamp: getCurrentTimeString(),
-    };
-    // 本地直接显示打字内容
-    const thisChatContent = cStore.userInfo.find(
-      (item) => item.chatId === cStore.getSelectChat()
-    );
-    if (thisChatContent) {
-      thisChatContent.content.push({
-        avatar: "0",
-        content: message,
-        contentType: "text/plain",
-        sequenceId: "unknown",
-        timestamp: getCurrentTimeString(),
-        sender: "agent",
-      });
-    }
-    // 发送socket
-    sStore.sendMessage(undefined, JSON.stringify(query));
-
-    */
 
     inputText.value = "";
     resetHeight();

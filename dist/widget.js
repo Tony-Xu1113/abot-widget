@@ -2331,691 +2331,691 @@ span[data-v-b7664f0f] {
 .ant-spin-spinning[data-v-b7664f0f] {
   display: inline-flex;
 }
-.w-100[data-v-27f50aad] {
+.w-100[data-v-ddc49f7e] {
   font-weight: 100;
 }
-.w-200[data-v-27f50aad] {
+.w-200[data-v-ddc49f7e] {
   font-weight: 200;
 }
-.w-300[data-v-27f50aad] {
+.w-300[data-v-ddc49f7e] {
   font-weight: 300;
 }
-.w-400[data-v-27f50aad] {
+.w-400[data-v-ddc49f7e] {
   font-weight: 400;
 }
-.w-500[data-v-27f50aad] {
+.w-500[data-v-ddc49f7e] {
   font-weight: 500;
 }
-.w-600[data-v-27f50aad] {
+.w-600[data-v-ddc49f7e] {
   font-weight: 600;
 }
-.w-700[data-v-27f50aad] {
+.w-700[data-v-ddc49f7e] {
   font-weight: 700;
 }
-.w-800[data-v-27f50aad] {
+.w-800[data-v-ddc49f7e] {
   font-weight: 800;
 }
-.w-900[data-v-27f50aad] {
+.w-900[data-v-ddc49f7e] {
   font-weight: 900;
 }
-html[data-v-27f50aad] {
+html[data-v-ddc49f7e] {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.s-8[data-v-27f50aad] {
+.s-8[data-v-ddc49f7e] {
   font-size: 8px;
 }
-.s-10[data-v-27f50aad] {
+.s-10[data-v-ddc49f7e] {
   font-size: 10px;
 }
-.s-12[data-v-27f50aad] {
+.s-12[data-v-ddc49f7e] {
   font-size: 12px;
 }
-.s-13[data-v-27f50aad] {
+.s-13[data-v-ddc49f7e] {
   font-size: 13px;
 }
-.s-14[data-v-27f50aad] {
+.s-14[data-v-ddc49f7e] {
   font-size: 14px;
 }
-.s-16[data-v-27f50aad] {
+.s-16[data-v-ddc49f7e] {
   font-size: 16px;
 }
-.s-18[data-v-27f50aad] {
+.s-18[data-v-ddc49f7e] {
   font-size: 18px;
 }
-.s-20[data-v-27f50aad] {
+.s-20[data-v-ddc49f7e] {
   font-size: 20px;
 }
-.s-22[data-v-27f50aad] {
+.s-22[data-v-ddc49f7e] {
   font-size: 22px;
 }
-.s-24[data-v-27f50aad] {
+.s-24[data-v-ddc49f7e] {
   font-size: 24px;
 }
-.s-32[data-v-27f50aad] {
+.s-32[data-v-ddc49f7e] {
   font-size: 32px;
 }
-.s-36[data-v-27f50aad] {
+.s-36[data-v-ddc49f7e] {
   font-size: 36px;
 }
-.s-40[data-v-27f50aad] {
+.s-40[data-v-ddc49f7e] {
   font-size: 40px;
 }
-.l-8[data-v-27f50aad] {
+.l-8[data-v-ddc49f7e] {
   line-height: 8px;
 }
-.l-10[data-v-27f50aad] {
+.l-10[data-v-ddc49f7e] {
   line-height: 10px;
 }
-.l-12[data-v-27f50aad] {
+.l-12[data-v-ddc49f7e] {
   line-height: 12px;
 }
-.l-13[data-v-27f50aad] {
+.l-13[data-v-ddc49f7e] {
   line-height: 13px;
 }
-.l-14[data-v-27f50aad] {
+.l-14[data-v-ddc49f7e] {
   line-height: 14px;
 }
-.l-16[data-v-27f50aad] {
+.l-16[data-v-ddc49f7e] {
   line-height: 16px;
 }
-.l-18[data-v-27f50aad] {
+.l-18[data-v-ddc49f7e] {
   line-height: 18px;
 }
-.l-20[data-v-27f50aad] {
+.l-20[data-v-ddc49f7e] {
   line-height: 20px;
 }
-.l-22[data-v-27f50aad] {
+.l-22[data-v-ddc49f7e] {
   line-height: 22px;
 }
-.l-24[data-v-27f50aad] {
+.l-24[data-v-ddc49f7e] {
   line-height: 24px;
 }
-.l-32[data-v-27f50aad] {
+.l-32[data-v-ddc49f7e] {
   line-height: 32px;
 }
-.l-36[data-v-27f50aad] {
+.l-36[data-v-ddc49f7e] {
   line-height: 36px;
 }
-.l-40[data-v-27f50aad] {
+.l-40[data-v-ddc49f7e] {
   line-height: 40px;
 }
-.mt-0[data-v-27f50aad] {
+.mt-0[data-v-ddc49f7e] {
   margin-top: 0px;
 }
-.mt-1[data-v-27f50aad] {
+.mt-1[data-v-ddc49f7e] {
   margin-top: 1px;
 }
-.mt-2[data-v-27f50aad] {
+.mt-2[data-v-ddc49f7e] {
   margin-top: 2px;
 }
-.mt-3[data-v-27f50aad] {
+.mt-3[data-v-ddc49f7e] {
   margin-top: 3px;
 }
-.mt-4[data-v-27f50aad] {
+.mt-4[data-v-ddc49f7e] {
   margin-top: 4px;
 }
-.mt-5[data-v-27f50aad] {
+.mt-5[data-v-ddc49f7e] {
   margin-top: 5px;
 }
-.mt-6[data-v-27f50aad] {
+.mt-6[data-v-ddc49f7e] {
   margin-top: 6px;
 }
-.mt-7[data-v-27f50aad] {
+.mt-7[data-v-ddc49f7e] {
   margin-top: 7px;
 }
-.mt-8[data-v-27f50aad] {
+.mt-8[data-v-ddc49f7e] {
   margin-top: 8px;
 }
-.mt-9[data-v-27f50aad] {
+.mt-9[data-v-ddc49f7e] {
   margin-top: 9px;
 }
-.mt-10[data-v-27f50aad] {
+.mt-10[data-v-ddc49f7e] {
   margin-top: 10px;
 }
-.mt-12[data-v-27f50aad] {
+.mt-12[data-v-ddc49f7e] {
   margin-top: 12px;
 }
-.mt-14[data-v-27f50aad] {
+.mt-14[data-v-ddc49f7e] {
   margin-top: 14px;
 }
-.mt-16[data-v-27f50aad] {
+.mt-16[data-v-ddc49f7e] {
   margin-top: 16px;
 }
-.mt-18[data-v-27f50aad] {
+.mt-18[data-v-ddc49f7e] {
   margin-top: 18px;
 }
-.mt-20[data-v-27f50aad] {
+.mt-20[data-v-ddc49f7e] {
   margin-top: 20px;
 }
-.mt-22[data-v-27f50aad] {
+.mt-22[data-v-ddc49f7e] {
   margin-top: 22px;
 }
-.mt-24[data-v-27f50aad] {
+.mt-24[data-v-ddc49f7e] {
   margin-top: 24px;
 }
-.mt-26[data-v-27f50aad] {
+.mt-26[data-v-ddc49f7e] {
   margin-top: 26px;
 }
-.mt-28[data-v-27f50aad] {
+.mt-28[data-v-ddc49f7e] {
   margin-top: 28px;
 }
-.mt-30[data-v-27f50aad] {
+.mt-30[data-v-ddc49f7e] {
   margin-top: 30px;
 }
-.mt-32[data-v-27f50aad] {
+.mt-32[data-v-ddc49f7e] {
   margin-top: 32px;
 }
-.mt-34[data-v-27f50aad] {
+.mt-34[data-v-ddc49f7e] {
   margin-top: 34px;
 }
-.mt-36[data-v-27f50aad] {
+.mt-36[data-v-ddc49f7e] {
   margin-top: 36px;
 }
-.mb-0[data-v-27f50aad] {
+.mb-0[data-v-ddc49f7e] {
   margin-bottom: 0px;
 }
-.mb-1[data-v-27f50aad] {
+.mb-1[data-v-ddc49f7e] {
   margin-bottom: 1px;
 }
-.mb-2[data-v-27f50aad] {
+.mb-2[data-v-ddc49f7e] {
   margin-bottom: 2px;
 }
-.mb-3[data-v-27f50aad] {
+.mb-3[data-v-ddc49f7e] {
   margin-bottom: 3px;
 }
-.mb-4[data-v-27f50aad] {
+.mb-4[data-v-ddc49f7e] {
   margin-bottom: 4px;
 }
-.mb-5[data-v-27f50aad] {
+.mb-5[data-v-ddc49f7e] {
   margin-bottom: 5px;
 }
-.mb-6[data-v-27f50aad] {
+.mb-6[data-v-ddc49f7e] {
   margin-bottom: 6px;
 }
-.mb-7[data-v-27f50aad] {
+.mb-7[data-v-ddc49f7e] {
   margin-bottom: 7px;
 }
-.mb-8[data-v-27f50aad] {
+.mb-8[data-v-ddc49f7e] {
   margin-bottom: 8px;
 }
-.mb-9[data-v-27f50aad] {
+.mb-9[data-v-ddc49f7e] {
   margin-bottom: 9px;
 }
-.mb-10[data-v-27f50aad] {
+.mb-10[data-v-ddc49f7e] {
   margin-bottom: 10px;
 }
-.mb-12[data-v-27f50aad] {
+.mb-12[data-v-ddc49f7e] {
   margin-bottom: 12px;
 }
-.mb-14[data-v-27f50aad] {
+.mb-14[data-v-ddc49f7e] {
   margin-bottom: 14px;
 }
-.mb-16[data-v-27f50aad] {
+.mb-16[data-v-ddc49f7e] {
   margin-bottom: 16px;
 }
-.mb-18[data-v-27f50aad] {
+.mb-18[data-v-ddc49f7e] {
   margin-bottom: 18px;
 }
-.mb-20[data-v-27f50aad] {
+.mb-20[data-v-ddc49f7e] {
   margin-bottom: 20px;
 }
-.mb-22[data-v-27f50aad] {
+.mb-22[data-v-ddc49f7e] {
   margin-bottom: 22px;
 }
-.mb-24[data-v-27f50aad] {
+.mb-24[data-v-ddc49f7e] {
   margin-bottom: 24px;
 }
-.mb-26[data-v-27f50aad] {
+.mb-26[data-v-ddc49f7e] {
   margin-bottom: 26px;
 }
-.mb-28[data-v-27f50aad] {
+.mb-28[data-v-ddc49f7e] {
   margin-bottom: 28px;
 }
-.mb-30[data-v-27f50aad] {
+.mb-30[data-v-ddc49f7e] {
   margin-bottom: 30px;
 }
-.mb-32[data-v-27f50aad] {
+.mb-32[data-v-ddc49f7e] {
   margin-bottom: 32px;
 }
-.mb-34[data-v-27f50aad] {
+.mb-34[data-v-ddc49f7e] {
   margin-bottom: 34px;
 }
-.mb-36[data-v-27f50aad] {
+.mb-36[data-v-ddc49f7e] {
   margin-bottom: 36px;
 }
-.ml-0[data-v-27f50aad] {
+.ml-0[data-v-ddc49f7e] {
   margin-left: 0px;
 }
-.ml-1[data-v-27f50aad] {
+.ml-1[data-v-ddc49f7e] {
   margin-left: 1px;
 }
-.ml-2[data-v-27f50aad] {
+.ml-2[data-v-ddc49f7e] {
   margin-left: 2px;
 }
-.ml-3[data-v-27f50aad] {
+.ml-3[data-v-ddc49f7e] {
   margin-left: 3px;
 }
-.ml-4[data-v-27f50aad] {
+.ml-4[data-v-ddc49f7e] {
   margin-left: 4px;
 }
-.ml-5[data-v-27f50aad] {
+.ml-5[data-v-ddc49f7e] {
   margin-left: 5px;
 }
-.ml-6[data-v-27f50aad] {
+.ml-6[data-v-ddc49f7e] {
   margin-left: 6px;
 }
-.ml-7[data-v-27f50aad] {
+.ml-7[data-v-ddc49f7e] {
   margin-left: 7px;
 }
-.ml-8[data-v-27f50aad] {
+.ml-8[data-v-ddc49f7e] {
   margin-left: 8px;
 }
-.ml-9[data-v-27f50aad] {
+.ml-9[data-v-ddc49f7e] {
   margin-left: 9px;
 }
-.ml-10[data-v-27f50aad] {
+.ml-10[data-v-ddc49f7e] {
   margin-left: 10px;
 }
-.ml-12[data-v-27f50aad] {
+.ml-12[data-v-ddc49f7e] {
   margin-left: 12px;
 }
-.ml-14[data-v-27f50aad] {
+.ml-14[data-v-ddc49f7e] {
   margin-left: 14px;
 }
-.ml-16[data-v-27f50aad] {
+.ml-16[data-v-ddc49f7e] {
   margin-left: 16px;
 }
-.ml-18[data-v-27f50aad] {
+.ml-18[data-v-ddc49f7e] {
   margin-left: 18px;
 }
-.ml-20[data-v-27f50aad] {
+.ml-20[data-v-ddc49f7e] {
   margin-left: 20px;
 }
-.ml-22[data-v-27f50aad] {
+.ml-22[data-v-ddc49f7e] {
   margin-left: 22px;
 }
-.ml-24[data-v-27f50aad] {
+.ml-24[data-v-ddc49f7e] {
   margin-left: 24px;
 }
-.ml-26[data-v-27f50aad] {
+.ml-26[data-v-ddc49f7e] {
   margin-left: 26px;
 }
-.ml-28[data-v-27f50aad] {
+.ml-28[data-v-ddc49f7e] {
   margin-left: 28px;
 }
-.ml-30[data-v-27f50aad] {
+.ml-30[data-v-ddc49f7e] {
   margin-left: 30px;
 }
-.ml-32[data-v-27f50aad] {
+.ml-32[data-v-ddc49f7e] {
   margin-left: 32px;
 }
-.ml-34[data-v-27f50aad] {
+.ml-34[data-v-ddc49f7e] {
   margin-left: 34px;
 }
-.ml-36[data-v-27f50aad] {
+.ml-36[data-v-ddc49f7e] {
   margin-left: 36px;
 }
-.mr-0[data-v-27f50aad] {
+.mr-0[data-v-ddc49f7e] {
   margin-right: 0px;
 }
-.mr-1[data-v-27f50aad] {
+.mr-1[data-v-ddc49f7e] {
   margin-right: 1px;
 }
-.mr-2[data-v-27f50aad] {
+.mr-2[data-v-ddc49f7e] {
   margin-right: 2px;
 }
-.mr-3[data-v-27f50aad] {
+.mr-3[data-v-ddc49f7e] {
   margin-right: 3px;
 }
-.mr-4[data-v-27f50aad] {
+.mr-4[data-v-ddc49f7e] {
   margin-right: 4px;
 }
-.mr-5[data-v-27f50aad] {
+.mr-5[data-v-ddc49f7e] {
   margin-right: 5px;
 }
-.mr-6[data-v-27f50aad] {
+.mr-6[data-v-ddc49f7e] {
   margin-right: 6px;
 }
-.mr-7[data-v-27f50aad] {
+.mr-7[data-v-ddc49f7e] {
   margin-right: 7px;
 }
-.mr-8[data-v-27f50aad] {
+.mr-8[data-v-ddc49f7e] {
   margin-right: 8px;
 }
-.mr-9[data-v-27f50aad] {
+.mr-9[data-v-ddc49f7e] {
   margin-right: 9px;
 }
-.mr-10[data-v-27f50aad] {
+.mr-10[data-v-ddc49f7e] {
   margin-right: 10px;
 }
-.mr-12[data-v-27f50aad] {
+.mr-12[data-v-ddc49f7e] {
   margin-right: 12px;
 }
-.mr-14[data-v-27f50aad] {
+.mr-14[data-v-ddc49f7e] {
   margin-right: 14px;
 }
-.mr-16[data-v-27f50aad] {
+.mr-16[data-v-ddc49f7e] {
   margin-right: 16px;
 }
-.mr-18[data-v-27f50aad] {
+.mr-18[data-v-ddc49f7e] {
   margin-right: 18px;
 }
-.mr-20[data-v-27f50aad] {
+.mr-20[data-v-ddc49f7e] {
   margin-right: 20px;
 }
-.mr-22[data-v-27f50aad] {
+.mr-22[data-v-ddc49f7e] {
   margin-right: 22px;
 }
-.mr-24[data-v-27f50aad] {
+.mr-24[data-v-ddc49f7e] {
   margin-right: 24px;
 }
-.mr-26[data-v-27f50aad] {
+.mr-26[data-v-ddc49f7e] {
   margin-right: 26px;
 }
-.mr-28[data-v-27f50aad] {
+.mr-28[data-v-ddc49f7e] {
   margin-right: 28px;
 }
-.mr-30[data-v-27f50aad] {
+.mr-30[data-v-ddc49f7e] {
   margin-right: 30px;
 }
-.mr-32[data-v-27f50aad] {
+.mr-32[data-v-ddc49f7e] {
   margin-right: 32px;
 }
-.mr-34[data-v-27f50aad] {
+.mr-34[data-v-ddc49f7e] {
   margin-right: 34px;
 }
-.mr-36[data-v-27f50aad] {
+.mr-36[data-v-ddc49f7e] {
   margin-right: 36px;
 }
-.pt-0[data-v-27f50aad] {
+.pt-0[data-v-ddc49f7e] {
   padding-top: 0px;
 }
-.pt-1[data-v-27f50aad] {
+.pt-1[data-v-ddc49f7e] {
   padding-top: 1px;
 }
-.pt-2[data-v-27f50aad] {
+.pt-2[data-v-ddc49f7e] {
   padding-top: 2px;
 }
-.pt-3[data-v-27f50aad] {
+.pt-3[data-v-ddc49f7e] {
   padding-top: 3px;
 }
-.pt-4[data-v-27f50aad] {
+.pt-4[data-v-ddc49f7e] {
   padding-top: 4px;
 }
-.pt-5[data-v-27f50aad] {
+.pt-5[data-v-ddc49f7e] {
   padding-top: 5px;
 }
-.pt-6[data-v-27f50aad] {
+.pt-6[data-v-ddc49f7e] {
   padding-top: 6px;
 }
-.pt-7[data-v-27f50aad] {
+.pt-7[data-v-ddc49f7e] {
   padding-top: 7px;
 }
-.pt-8[data-v-27f50aad] {
+.pt-8[data-v-ddc49f7e] {
   padding-top: 8px;
 }
-.pt-9[data-v-27f50aad] {
+.pt-9[data-v-ddc49f7e] {
   padding-top: 9px;
 }
-.pt-10[data-v-27f50aad] {
+.pt-10[data-v-ddc49f7e] {
   padding-top: 10px;
 }
-.pt-12[data-v-27f50aad] {
+.pt-12[data-v-ddc49f7e] {
   padding-top: 12px;
 }
-.pt-14[data-v-27f50aad] {
+.pt-14[data-v-ddc49f7e] {
   padding-top: 14px;
 }
-.pt-16[data-v-27f50aad] {
+.pt-16[data-v-ddc49f7e] {
   padding-top: 16px;
 }
-.pt-18[data-v-27f50aad] {
+.pt-18[data-v-ddc49f7e] {
   padding-top: 18px;
 }
-.pt-20[data-v-27f50aad] {
+.pt-20[data-v-ddc49f7e] {
   padding-top: 20px;
 }
-.pt-22[data-v-27f50aad] {
+.pt-22[data-v-ddc49f7e] {
   padding-top: 22px;
 }
-.pt-24[data-v-27f50aad] {
+.pt-24[data-v-ddc49f7e] {
   padding-top: 24px;
 }
-.pt-26[data-v-27f50aad] {
+.pt-26[data-v-ddc49f7e] {
   padding-top: 26px;
 }
-.pt-28[data-v-27f50aad] {
+.pt-28[data-v-ddc49f7e] {
   padding-top: 28px;
 }
-.pt-30[data-v-27f50aad] {
+.pt-30[data-v-ddc49f7e] {
   padding-top: 30px;
 }
-.pt-32[data-v-27f50aad] {
+.pt-32[data-v-ddc49f7e] {
   padding-top: 32px;
 }
-.pt-34[data-v-27f50aad] {
+.pt-34[data-v-ddc49f7e] {
   padding-top: 34px;
 }
-.pt-36[data-v-27f50aad] {
+.pt-36[data-v-ddc49f7e] {
   padding-top: 36px;
 }
-.pb-0[data-v-27f50aad] {
+.pb-0[data-v-ddc49f7e] {
   padding-bottom: 0px;
 }
-.pb-1[data-v-27f50aad] {
+.pb-1[data-v-ddc49f7e] {
   padding-bottom: 1px;
 }
-.pb-2[data-v-27f50aad] {
+.pb-2[data-v-ddc49f7e] {
   padding-bottom: 2px;
 }
-.pb-3[data-v-27f50aad] {
+.pb-3[data-v-ddc49f7e] {
   padding-bottom: 3px;
 }
-.pb-4[data-v-27f50aad] {
+.pb-4[data-v-ddc49f7e] {
   padding-bottom: 4px;
 }
-.pb-5[data-v-27f50aad] {
+.pb-5[data-v-ddc49f7e] {
   padding-bottom: 5px;
 }
-.pb-6[data-v-27f50aad] {
+.pb-6[data-v-ddc49f7e] {
   padding-bottom: 6px;
 }
-.pb-7[data-v-27f50aad] {
+.pb-7[data-v-ddc49f7e] {
   padding-bottom: 7px;
 }
-.pb-8[data-v-27f50aad] {
+.pb-8[data-v-ddc49f7e] {
   padding-bottom: 8px;
 }
-.pb-9[data-v-27f50aad] {
+.pb-9[data-v-ddc49f7e] {
   padding-bottom: 9px;
 }
-.pb-10[data-v-27f50aad] {
+.pb-10[data-v-ddc49f7e] {
   padding-bottom: 10px;
 }
-.pb-12[data-v-27f50aad] {
+.pb-12[data-v-ddc49f7e] {
   padding-bottom: 12px;
 }
-.pb-14[data-v-27f50aad] {
+.pb-14[data-v-ddc49f7e] {
   padding-bottom: 14px;
 }
-.pb-16[data-v-27f50aad] {
+.pb-16[data-v-ddc49f7e] {
   padding-bottom: 16px;
 }
-.pb-18[data-v-27f50aad] {
+.pb-18[data-v-ddc49f7e] {
   padding-bottom: 18px;
 }
-.pb-20[data-v-27f50aad] {
+.pb-20[data-v-ddc49f7e] {
   padding-bottom: 20px;
 }
-.pb-22[data-v-27f50aad] {
+.pb-22[data-v-ddc49f7e] {
   padding-bottom: 22px;
 }
-.pb-24[data-v-27f50aad] {
+.pb-24[data-v-ddc49f7e] {
   padding-bottom: 24px;
 }
-.pb-26[data-v-27f50aad] {
+.pb-26[data-v-ddc49f7e] {
   padding-bottom: 26px;
 }
-.pb-28[data-v-27f50aad] {
+.pb-28[data-v-ddc49f7e] {
   padding-bottom: 28px;
 }
-.pb-30[data-v-27f50aad] {
+.pb-30[data-v-ddc49f7e] {
   padding-bottom: 30px;
 }
-.pb-32[data-v-27f50aad] {
+.pb-32[data-v-ddc49f7e] {
   padding-bottom: 32px;
 }
-.pb-34[data-v-27f50aad] {
+.pb-34[data-v-ddc49f7e] {
   padding-bottom: 34px;
 }
-.pb-36[data-v-27f50aad] {
+.pb-36[data-v-ddc49f7e] {
   padding-bottom: 36px;
 }
-.pl-0[data-v-27f50aad] {
+.pl-0[data-v-ddc49f7e] {
   padding-left: 0px;
 }
-.pl-1[data-v-27f50aad] {
+.pl-1[data-v-ddc49f7e] {
   padding-left: 1px;
 }
-.pl-2[data-v-27f50aad] {
+.pl-2[data-v-ddc49f7e] {
   padding-left: 2px;
 }
-.pl-3[data-v-27f50aad] {
+.pl-3[data-v-ddc49f7e] {
   padding-left: 3px;
 }
-.pl-4[data-v-27f50aad] {
+.pl-4[data-v-ddc49f7e] {
   padding-left: 4px;
 }
-.pl-5[data-v-27f50aad] {
+.pl-5[data-v-ddc49f7e] {
   padding-left: 5px;
 }
-.pl-6[data-v-27f50aad] {
+.pl-6[data-v-ddc49f7e] {
   padding-left: 6px;
 }
-.pl-7[data-v-27f50aad] {
+.pl-7[data-v-ddc49f7e] {
   padding-left: 7px;
 }
-.pl-8[data-v-27f50aad] {
+.pl-8[data-v-ddc49f7e] {
   padding-left: 8px;
 }
-.pl-9[data-v-27f50aad] {
+.pl-9[data-v-ddc49f7e] {
   padding-left: 9px;
 }
-.pl-10[data-v-27f50aad] {
+.pl-10[data-v-ddc49f7e] {
   padding-left: 10px;
 }
-.pl-12[data-v-27f50aad] {
+.pl-12[data-v-ddc49f7e] {
   padding-left: 12px;
 }
-.pl-14[data-v-27f50aad] {
+.pl-14[data-v-ddc49f7e] {
   padding-left: 14px;
 }
-.pl-16[data-v-27f50aad] {
+.pl-16[data-v-ddc49f7e] {
   padding-left: 16px;
 }
-.pl-18[data-v-27f50aad] {
+.pl-18[data-v-ddc49f7e] {
   padding-left: 18px;
 }
-.pl-20[data-v-27f50aad] {
+.pl-20[data-v-ddc49f7e] {
   padding-left: 20px;
 }
-.pl-22[data-v-27f50aad] {
+.pl-22[data-v-ddc49f7e] {
   padding-left: 22px;
 }
-.pl-24[data-v-27f50aad] {
+.pl-24[data-v-ddc49f7e] {
   padding-left: 24px;
 }
-.pl-26[data-v-27f50aad] {
+.pl-26[data-v-ddc49f7e] {
   padding-left: 26px;
 }
-.pl-28[data-v-27f50aad] {
+.pl-28[data-v-ddc49f7e] {
   padding-left: 28px;
 }
-.pl-30[data-v-27f50aad] {
+.pl-30[data-v-ddc49f7e] {
   padding-left: 30px;
 }
-.pl-32[data-v-27f50aad] {
+.pl-32[data-v-ddc49f7e] {
   padding-left: 32px;
 }
-.pl-34[data-v-27f50aad] {
+.pl-34[data-v-ddc49f7e] {
   padding-left: 34px;
 }
-.pl-36[data-v-27f50aad] {
+.pl-36[data-v-ddc49f7e] {
   padding-left: 36px;
 }
-.pr-0[data-v-27f50aad] {
+.pr-0[data-v-ddc49f7e] {
   padding-right: 0px;
 }
-.pr-1[data-v-27f50aad] {
+.pr-1[data-v-ddc49f7e] {
   padding-right: 1px;
 }
-.pr-2[data-v-27f50aad] {
+.pr-2[data-v-ddc49f7e] {
   padding-right: 2px;
 }
-.pr-3[data-v-27f50aad] {
+.pr-3[data-v-ddc49f7e] {
   padding-right: 3px;
 }
-.pr-4[data-v-27f50aad] {
+.pr-4[data-v-ddc49f7e] {
   padding-right: 4px;
 }
-.pr-5[data-v-27f50aad] {
+.pr-5[data-v-ddc49f7e] {
   padding-right: 5px;
 }
-.pr-6[data-v-27f50aad] {
+.pr-6[data-v-ddc49f7e] {
   padding-right: 6px;
 }
-.pr-7[data-v-27f50aad] {
+.pr-7[data-v-ddc49f7e] {
   padding-right: 7px;
 }
-.pr-8[data-v-27f50aad] {
+.pr-8[data-v-ddc49f7e] {
   padding-right: 8px;
 }
-.pr-9[data-v-27f50aad] {
+.pr-9[data-v-ddc49f7e] {
   padding-right: 9px;
 }
-.pr-10[data-v-27f50aad] {
+.pr-10[data-v-ddc49f7e] {
   padding-right: 10px;
 }
-.pr-12[data-v-27f50aad] {
+.pr-12[data-v-ddc49f7e] {
   padding-right: 12px;
 }
-.pr-14[data-v-27f50aad] {
+.pr-14[data-v-ddc49f7e] {
   padding-right: 14px;
 }
-.pr-16[data-v-27f50aad] {
+.pr-16[data-v-ddc49f7e] {
   padding-right: 16px;
 }
-.pr-18[data-v-27f50aad] {
+.pr-18[data-v-ddc49f7e] {
   padding-right: 18px;
 }
-.pr-20[data-v-27f50aad] {
+.pr-20[data-v-ddc49f7e] {
   padding-right: 20px;
 }
-.pr-22[data-v-27f50aad] {
+.pr-22[data-v-ddc49f7e] {
   padding-right: 22px;
 }
-.pr-24[data-v-27f50aad] {
+.pr-24[data-v-ddc49f7e] {
   padding-right: 24px;
 }
-.pr-26[data-v-27f50aad] {
+.pr-26[data-v-ddc49f7e] {
   padding-right: 26px;
 }
-.pr-28[data-v-27f50aad] {
+.pr-28[data-v-ddc49f7e] {
   padding-right: 28px;
 }
-.pr-30[data-v-27f50aad] {
+.pr-30[data-v-ddc49f7e] {
   padding-right: 30px;
 }
-.pr-32[data-v-27f50aad] {
+.pr-32[data-v-ddc49f7e] {
   padding-right: 32px;
 }
-.pr-34[data-v-27f50aad] {
+.pr-34[data-v-ddc49f7e] {
   padding-right: 34px;
 }
-.pr-36[data-v-27f50aad] {
+.pr-36[data-v-ddc49f7e] {
   padding-right: 36px;
 }
-html[data-v-27f50aad] {
+html[data-v-ddc49f7e] {
   --primary-color: #00703d;
   --primary-disabled-color: #99c6b1;
   --primary-bg-color: #edf8ef;
@@ -3041,37 +3041,38 @@ html[data-v-27f50aad] {
   --warn-2: #fff6e7;
   --antd-wave-shadow-color: var(--primary-color) !important;
 }
-span[data-v-27f50aad] {
+span[data-v-ddc49f7e] {
   color: var(--text-1);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
-.text-1[data-v-27f50aad] {
+.text-1[data-v-ddc49f7e] {
   color: var(--text-1);
 }
-.text-2[data-v-27f50aad] {
+.text-2[data-v-ddc49f7e] {
   color: var(--text-2);
 }
-.text-3[data-v-27f50aad] {
+.text-3[data-v-ddc49f7e] {
   color: var(--text-3);
 }
-.text-4[data-v-27f50aad] {
+.text-4[data-v-ddc49f7e] {
   color: var(--text-4);
 }
-.white[data-v-27f50aad] {
+.white[data-v-ddc49f7e] {
   color: var(--white);
 }
-.primary-color[data-v-27f50aad] {
+.primary-color[data-v-ddc49f7e] {
   color: var(--primary-color);
 }
-.error-color[data-v-27f50aad] {
+.error-color[data-v-ddc49f7e] {
   color: var(--error-1);
 }
-.neutral-icon[data-v-27f50aad] {
+.neutral-icon[data-v-ddc49f7e] {
   color: var(--neutral-icon);
 }
-.chat-input-card[data-v-27f50aad] {
+.chat-input-card[data-v-ddc49f7e] {
+  position: relative;
   border-radius: 4px;
   width: calc(100% - 40px);
   height: 172px;
@@ -3079,13 +3080,22 @@ span[data-v-27f50aad] {
   padding: 10px 12px;
   background-color: white;
 }
-.send-button-container[data-v-27f50aad] {
+.disable-mask[data-v-ddc49f7e] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #00000019;
+  top: 0;
+  left: 0;
+}
+.send-button-container[data-v-ddc49f7e] {
   display: flex;
   align-items: center;
   justify-content: end;
   gap: 8px;
 }
-.chat-textarea[data-v-27f50aad] {
+.chat-textarea[data-v-ddc49f7e] {
   flex: 1;
   border: none;
   resize: none;
@@ -3100,10 +3110,10 @@ span[data-v-27f50aad] {
   overflow-y: auto;
   transition: height 0.2s ease;
 }
-.chat-textarea[data-v-27f50aad]:focus {
+.chat-textarea[data-v-ddc49f7e]:focus {
   outline: none;
 }
-.chat-textarea[data-v-27f50aad]::placeholder {
+.chat-textarea[data-v-ddc49f7e]::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -4615,691 +4625,691 @@ span[data-v-6e21cf61] {
   width: 12px;
   height: 12px;
 }
-.w-100[data-v-079a325a] {
+.w-100[data-v-d1e6fcc1] {
   font-weight: 100;
 }
-.w-200[data-v-079a325a] {
+.w-200[data-v-d1e6fcc1] {
   font-weight: 200;
 }
-.w-300[data-v-079a325a] {
+.w-300[data-v-d1e6fcc1] {
   font-weight: 300;
 }
-.w-400[data-v-079a325a] {
+.w-400[data-v-d1e6fcc1] {
   font-weight: 400;
 }
-.w-500[data-v-079a325a] {
+.w-500[data-v-d1e6fcc1] {
   font-weight: 500;
 }
-.w-600[data-v-079a325a] {
+.w-600[data-v-d1e6fcc1] {
   font-weight: 600;
 }
-.w-700[data-v-079a325a] {
+.w-700[data-v-d1e6fcc1] {
   font-weight: 700;
 }
-.w-800[data-v-079a325a] {
+.w-800[data-v-d1e6fcc1] {
   font-weight: 800;
 }
-.w-900[data-v-079a325a] {
+.w-900[data-v-d1e6fcc1] {
   font-weight: 900;
 }
-html[data-v-079a325a] {
+html[data-v-d1e6fcc1] {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.s-8[data-v-079a325a] {
+.s-8[data-v-d1e6fcc1] {
   font-size: 8px;
 }
-.s-10[data-v-079a325a] {
+.s-10[data-v-d1e6fcc1] {
   font-size: 10px;
 }
-.s-12[data-v-079a325a] {
+.s-12[data-v-d1e6fcc1] {
   font-size: 12px;
 }
-.s-13[data-v-079a325a] {
+.s-13[data-v-d1e6fcc1] {
   font-size: 13px;
 }
-.s-14[data-v-079a325a] {
+.s-14[data-v-d1e6fcc1] {
   font-size: 14px;
 }
-.s-16[data-v-079a325a] {
+.s-16[data-v-d1e6fcc1] {
   font-size: 16px;
 }
-.s-18[data-v-079a325a] {
+.s-18[data-v-d1e6fcc1] {
   font-size: 18px;
 }
-.s-20[data-v-079a325a] {
+.s-20[data-v-d1e6fcc1] {
   font-size: 20px;
 }
-.s-22[data-v-079a325a] {
+.s-22[data-v-d1e6fcc1] {
   font-size: 22px;
 }
-.s-24[data-v-079a325a] {
+.s-24[data-v-d1e6fcc1] {
   font-size: 24px;
 }
-.s-32[data-v-079a325a] {
+.s-32[data-v-d1e6fcc1] {
   font-size: 32px;
 }
-.s-36[data-v-079a325a] {
+.s-36[data-v-d1e6fcc1] {
   font-size: 36px;
 }
-.s-40[data-v-079a325a] {
+.s-40[data-v-d1e6fcc1] {
   font-size: 40px;
 }
-.l-8[data-v-079a325a] {
+.l-8[data-v-d1e6fcc1] {
   line-height: 8px;
 }
-.l-10[data-v-079a325a] {
+.l-10[data-v-d1e6fcc1] {
   line-height: 10px;
 }
-.l-12[data-v-079a325a] {
+.l-12[data-v-d1e6fcc1] {
   line-height: 12px;
 }
-.l-13[data-v-079a325a] {
+.l-13[data-v-d1e6fcc1] {
   line-height: 13px;
 }
-.l-14[data-v-079a325a] {
+.l-14[data-v-d1e6fcc1] {
   line-height: 14px;
 }
-.l-16[data-v-079a325a] {
+.l-16[data-v-d1e6fcc1] {
   line-height: 16px;
 }
-.l-18[data-v-079a325a] {
+.l-18[data-v-d1e6fcc1] {
   line-height: 18px;
 }
-.l-20[data-v-079a325a] {
+.l-20[data-v-d1e6fcc1] {
   line-height: 20px;
 }
-.l-22[data-v-079a325a] {
+.l-22[data-v-d1e6fcc1] {
   line-height: 22px;
 }
-.l-24[data-v-079a325a] {
+.l-24[data-v-d1e6fcc1] {
   line-height: 24px;
 }
-.l-32[data-v-079a325a] {
+.l-32[data-v-d1e6fcc1] {
   line-height: 32px;
 }
-.l-36[data-v-079a325a] {
+.l-36[data-v-d1e6fcc1] {
   line-height: 36px;
 }
-.l-40[data-v-079a325a] {
+.l-40[data-v-d1e6fcc1] {
   line-height: 40px;
 }
-.mt-0[data-v-079a325a] {
+.mt-0[data-v-d1e6fcc1] {
   margin-top: 0px;
 }
-.mt-1[data-v-079a325a] {
+.mt-1[data-v-d1e6fcc1] {
   margin-top: 1px;
 }
-.mt-2[data-v-079a325a] {
+.mt-2[data-v-d1e6fcc1] {
   margin-top: 2px;
 }
-.mt-3[data-v-079a325a] {
+.mt-3[data-v-d1e6fcc1] {
   margin-top: 3px;
 }
-.mt-4[data-v-079a325a] {
+.mt-4[data-v-d1e6fcc1] {
   margin-top: 4px;
 }
-.mt-5[data-v-079a325a] {
+.mt-5[data-v-d1e6fcc1] {
   margin-top: 5px;
 }
-.mt-6[data-v-079a325a] {
+.mt-6[data-v-d1e6fcc1] {
   margin-top: 6px;
 }
-.mt-7[data-v-079a325a] {
+.mt-7[data-v-d1e6fcc1] {
   margin-top: 7px;
 }
-.mt-8[data-v-079a325a] {
+.mt-8[data-v-d1e6fcc1] {
   margin-top: 8px;
 }
-.mt-9[data-v-079a325a] {
+.mt-9[data-v-d1e6fcc1] {
   margin-top: 9px;
 }
-.mt-10[data-v-079a325a] {
+.mt-10[data-v-d1e6fcc1] {
   margin-top: 10px;
 }
-.mt-12[data-v-079a325a] {
+.mt-12[data-v-d1e6fcc1] {
   margin-top: 12px;
 }
-.mt-14[data-v-079a325a] {
+.mt-14[data-v-d1e6fcc1] {
   margin-top: 14px;
 }
-.mt-16[data-v-079a325a] {
+.mt-16[data-v-d1e6fcc1] {
   margin-top: 16px;
 }
-.mt-18[data-v-079a325a] {
+.mt-18[data-v-d1e6fcc1] {
   margin-top: 18px;
 }
-.mt-20[data-v-079a325a] {
+.mt-20[data-v-d1e6fcc1] {
   margin-top: 20px;
 }
-.mt-22[data-v-079a325a] {
+.mt-22[data-v-d1e6fcc1] {
   margin-top: 22px;
 }
-.mt-24[data-v-079a325a] {
+.mt-24[data-v-d1e6fcc1] {
   margin-top: 24px;
 }
-.mt-26[data-v-079a325a] {
+.mt-26[data-v-d1e6fcc1] {
   margin-top: 26px;
 }
-.mt-28[data-v-079a325a] {
+.mt-28[data-v-d1e6fcc1] {
   margin-top: 28px;
 }
-.mt-30[data-v-079a325a] {
+.mt-30[data-v-d1e6fcc1] {
   margin-top: 30px;
 }
-.mt-32[data-v-079a325a] {
+.mt-32[data-v-d1e6fcc1] {
   margin-top: 32px;
 }
-.mt-34[data-v-079a325a] {
+.mt-34[data-v-d1e6fcc1] {
   margin-top: 34px;
 }
-.mt-36[data-v-079a325a] {
+.mt-36[data-v-d1e6fcc1] {
   margin-top: 36px;
 }
-.mb-0[data-v-079a325a] {
+.mb-0[data-v-d1e6fcc1] {
   margin-bottom: 0px;
 }
-.mb-1[data-v-079a325a] {
+.mb-1[data-v-d1e6fcc1] {
   margin-bottom: 1px;
 }
-.mb-2[data-v-079a325a] {
+.mb-2[data-v-d1e6fcc1] {
   margin-bottom: 2px;
 }
-.mb-3[data-v-079a325a] {
+.mb-3[data-v-d1e6fcc1] {
   margin-bottom: 3px;
 }
-.mb-4[data-v-079a325a] {
+.mb-4[data-v-d1e6fcc1] {
   margin-bottom: 4px;
 }
-.mb-5[data-v-079a325a] {
+.mb-5[data-v-d1e6fcc1] {
   margin-bottom: 5px;
 }
-.mb-6[data-v-079a325a] {
+.mb-6[data-v-d1e6fcc1] {
   margin-bottom: 6px;
 }
-.mb-7[data-v-079a325a] {
+.mb-7[data-v-d1e6fcc1] {
   margin-bottom: 7px;
 }
-.mb-8[data-v-079a325a] {
+.mb-8[data-v-d1e6fcc1] {
   margin-bottom: 8px;
 }
-.mb-9[data-v-079a325a] {
+.mb-9[data-v-d1e6fcc1] {
   margin-bottom: 9px;
 }
-.mb-10[data-v-079a325a] {
+.mb-10[data-v-d1e6fcc1] {
   margin-bottom: 10px;
 }
-.mb-12[data-v-079a325a] {
+.mb-12[data-v-d1e6fcc1] {
   margin-bottom: 12px;
 }
-.mb-14[data-v-079a325a] {
+.mb-14[data-v-d1e6fcc1] {
   margin-bottom: 14px;
 }
-.mb-16[data-v-079a325a] {
+.mb-16[data-v-d1e6fcc1] {
   margin-bottom: 16px;
 }
-.mb-18[data-v-079a325a] {
+.mb-18[data-v-d1e6fcc1] {
   margin-bottom: 18px;
 }
-.mb-20[data-v-079a325a] {
+.mb-20[data-v-d1e6fcc1] {
   margin-bottom: 20px;
 }
-.mb-22[data-v-079a325a] {
+.mb-22[data-v-d1e6fcc1] {
   margin-bottom: 22px;
 }
-.mb-24[data-v-079a325a] {
+.mb-24[data-v-d1e6fcc1] {
   margin-bottom: 24px;
 }
-.mb-26[data-v-079a325a] {
+.mb-26[data-v-d1e6fcc1] {
   margin-bottom: 26px;
 }
-.mb-28[data-v-079a325a] {
+.mb-28[data-v-d1e6fcc1] {
   margin-bottom: 28px;
 }
-.mb-30[data-v-079a325a] {
+.mb-30[data-v-d1e6fcc1] {
   margin-bottom: 30px;
 }
-.mb-32[data-v-079a325a] {
+.mb-32[data-v-d1e6fcc1] {
   margin-bottom: 32px;
 }
-.mb-34[data-v-079a325a] {
+.mb-34[data-v-d1e6fcc1] {
   margin-bottom: 34px;
 }
-.mb-36[data-v-079a325a] {
+.mb-36[data-v-d1e6fcc1] {
   margin-bottom: 36px;
 }
-.ml-0[data-v-079a325a] {
+.ml-0[data-v-d1e6fcc1] {
   margin-left: 0px;
 }
-.ml-1[data-v-079a325a] {
+.ml-1[data-v-d1e6fcc1] {
   margin-left: 1px;
 }
-.ml-2[data-v-079a325a] {
+.ml-2[data-v-d1e6fcc1] {
   margin-left: 2px;
 }
-.ml-3[data-v-079a325a] {
+.ml-3[data-v-d1e6fcc1] {
   margin-left: 3px;
 }
-.ml-4[data-v-079a325a] {
+.ml-4[data-v-d1e6fcc1] {
   margin-left: 4px;
 }
-.ml-5[data-v-079a325a] {
+.ml-5[data-v-d1e6fcc1] {
   margin-left: 5px;
 }
-.ml-6[data-v-079a325a] {
+.ml-6[data-v-d1e6fcc1] {
   margin-left: 6px;
 }
-.ml-7[data-v-079a325a] {
+.ml-7[data-v-d1e6fcc1] {
   margin-left: 7px;
 }
-.ml-8[data-v-079a325a] {
+.ml-8[data-v-d1e6fcc1] {
   margin-left: 8px;
 }
-.ml-9[data-v-079a325a] {
+.ml-9[data-v-d1e6fcc1] {
   margin-left: 9px;
 }
-.ml-10[data-v-079a325a] {
+.ml-10[data-v-d1e6fcc1] {
   margin-left: 10px;
 }
-.ml-12[data-v-079a325a] {
+.ml-12[data-v-d1e6fcc1] {
   margin-left: 12px;
 }
-.ml-14[data-v-079a325a] {
+.ml-14[data-v-d1e6fcc1] {
   margin-left: 14px;
 }
-.ml-16[data-v-079a325a] {
+.ml-16[data-v-d1e6fcc1] {
   margin-left: 16px;
 }
-.ml-18[data-v-079a325a] {
+.ml-18[data-v-d1e6fcc1] {
   margin-left: 18px;
 }
-.ml-20[data-v-079a325a] {
+.ml-20[data-v-d1e6fcc1] {
   margin-left: 20px;
 }
-.ml-22[data-v-079a325a] {
+.ml-22[data-v-d1e6fcc1] {
   margin-left: 22px;
 }
-.ml-24[data-v-079a325a] {
+.ml-24[data-v-d1e6fcc1] {
   margin-left: 24px;
 }
-.ml-26[data-v-079a325a] {
+.ml-26[data-v-d1e6fcc1] {
   margin-left: 26px;
 }
-.ml-28[data-v-079a325a] {
+.ml-28[data-v-d1e6fcc1] {
   margin-left: 28px;
 }
-.ml-30[data-v-079a325a] {
+.ml-30[data-v-d1e6fcc1] {
   margin-left: 30px;
 }
-.ml-32[data-v-079a325a] {
+.ml-32[data-v-d1e6fcc1] {
   margin-left: 32px;
 }
-.ml-34[data-v-079a325a] {
+.ml-34[data-v-d1e6fcc1] {
   margin-left: 34px;
 }
-.ml-36[data-v-079a325a] {
+.ml-36[data-v-d1e6fcc1] {
   margin-left: 36px;
 }
-.mr-0[data-v-079a325a] {
+.mr-0[data-v-d1e6fcc1] {
   margin-right: 0px;
 }
-.mr-1[data-v-079a325a] {
+.mr-1[data-v-d1e6fcc1] {
   margin-right: 1px;
 }
-.mr-2[data-v-079a325a] {
+.mr-2[data-v-d1e6fcc1] {
   margin-right: 2px;
 }
-.mr-3[data-v-079a325a] {
+.mr-3[data-v-d1e6fcc1] {
   margin-right: 3px;
 }
-.mr-4[data-v-079a325a] {
+.mr-4[data-v-d1e6fcc1] {
   margin-right: 4px;
 }
-.mr-5[data-v-079a325a] {
+.mr-5[data-v-d1e6fcc1] {
   margin-right: 5px;
 }
-.mr-6[data-v-079a325a] {
+.mr-6[data-v-d1e6fcc1] {
   margin-right: 6px;
 }
-.mr-7[data-v-079a325a] {
+.mr-7[data-v-d1e6fcc1] {
   margin-right: 7px;
 }
-.mr-8[data-v-079a325a] {
+.mr-8[data-v-d1e6fcc1] {
   margin-right: 8px;
 }
-.mr-9[data-v-079a325a] {
+.mr-9[data-v-d1e6fcc1] {
   margin-right: 9px;
 }
-.mr-10[data-v-079a325a] {
+.mr-10[data-v-d1e6fcc1] {
   margin-right: 10px;
 }
-.mr-12[data-v-079a325a] {
+.mr-12[data-v-d1e6fcc1] {
   margin-right: 12px;
 }
-.mr-14[data-v-079a325a] {
+.mr-14[data-v-d1e6fcc1] {
   margin-right: 14px;
 }
-.mr-16[data-v-079a325a] {
+.mr-16[data-v-d1e6fcc1] {
   margin-right: 16px;
 }
-.mr-18[data-v-079a325a] {
+.mr-18[data-v-d1e6fcc1] {
   margin-right: 18px;
 }
-.mr-20[data-v-079a325a] {
+.mr-20[data-v-d1e6fcc1] {
   margin-right: 20px;
 }
-.mr-22[data-v-079a325a] {
+.mr-22[data-v-d1e6fcc1] {
   margin-right: 22px;
 }
-.mr-24[data-v-079a325a] {
+.mr-24[data-v-d1e6fcc1] {
   margin-right: 24px;
 }
-.mr-26[data-v-079a325a] {
+.mr-26[data-v-d1e6fcc1] {
   margin-right: 26px;
 }
-.mr-28[data-v-079a325a] {
+.mr-28[data-v-d1e6fcc1] {
   margin-right: 28px;
 }
-.mr-30[data-v-079a325a] {
+.mr-30[data-v-d1e6fcc1] {
   margin-right: 30px;
 }
-.mr-32[data-v-079a325a] {
+.mr-32[data-v-d1e6fcc1] {
   margin-right: 32px;
 }
-.mr-34[data-v-079a325a] {
+.mr-34[data-v-d1e6fcc1] {
   margin-right: 34px;
 }
-.mr-36[data-v-079a325a] {
+.mr-36[data-v-d1e6fcc1] {
   margin-right: 36px;
 }
-.pt-0[data-v-079a325a] {
+.pt-0[data-v-d1e6fcc1] {
   padding-top: 0px;
 }
-.pt-1[data-v-079a325a] {
+.pt-1[data-v-d1e6fcc1] {
   padding-top: 1px;
 }
-.pt-2[data-v-079a325a] {
+.pt-2[data-v-d1e6fcc1] {
   padding-top: 2px;
 }
-.pt-3[data-v-079a325a] {
+.pt-3[data-v-d1e6fcc1] {
   padding-top: 3px;
 }
-.pt-4[data-v-079a325a] {
+.pt-4[data-v-d1e6fcc1] {
   padding-top: 4px;
 }
-.pt-5[data-v-079a325a] {
+.pt-5[data-v-d1e6fcc1] {
   padding-top: 5px;
 }
-.pt-6[data-v-079a325a] {
+.pt-6[data-v-d1e6fcc1] {
   padding-top: 6px;
 }
-.pt-7[data-v-079a325a] {
+.pt-7[data-v-d1e6fcc1] {
   padding-top: 7px;
 }
-.pt-8[data-v-079a325a] {
+.pt-8[data-v-d1e6fcc1] {
   padding-top: 8px;
 }
-.pt-9[data-v-079a325a] {
+.pt-9[data-v-d1e6fcc1] {
   padding-top: 9px;
 }
-.pt-10[data-v-079a325a] {
+.pt-10[data-v-d1e6fcc1] {
   padding-top: 10px;
 }
-.pt-12[data-v-079a325a] {
+.pt-12[data-v-d1e6fcc1] {
   padding-top: 12px;
 }
-.pt-14[data-v-079a325a] {
+.pt-14[data-v-d1e6fcc1] {
   padding-top: 14px;
 }
-.pt-16[data-v-079a325a] {
+.pt-16[data-v-d1e6fcc1] {
   padding-top: 16px;
 }
-.pt-18[data-v-079a325a] {
+.pt-18[data-v-d1e6fcc1] {
   padding-top: 18px;
 }
-.pt-20[data-v-079a325a] {
+.pt-20[data-v-d1e6fcc1] {
   padding-top: 20px;
 }
-.pt-22[data-v-079a325a] {
+.pt-22[data-v-d1e6fcc1] {
   padding-top: 22px;
 }
-.pt-24[data-v-079a325a] {
+.pt-24[data-v-d1e6fcc1] {
   padding-top: 24px;
 }
-.pt-26[data-v-079a325a] {
+.pt-26[data-v-d1e6fcc1] {
   padding-top: 26px;
 }
-.pt-28[data-v-079a325a] {
+.pt-28[data-v-d1e6fcc1] {
   padding-top: 28px;
 }
-.pt-30[data-v-079a325a] {
+.pt-30[data-v-d1e6fcc1] {
   padding-top: 30px;
 }
-.pt-32[data-v-079a325a] {
+.pt-32[data-v-d1e6fcc1] {
   padding-top: 32px;
 }
-.pt-34[data-v-079a325a] {
+.pt-34[data-v-d1e6fcc1] {
   padding-top: 34px;
 }
-.pt-36[data-v-079a325a] {
+.pt-36[data-v-d1e6fcc1] {
   padding-top: 36px;
 }
-.pb-0[data-v-079a325a] {
+.pb-0[data-v-d1e6fcc1] {
   padding-bottom: 0px;
 }
-.pb-1[data-v-079a325a] {
+.pb-1[data-v-d1e6fcc1] {
   padding-bottom: 1px;
 }
-.pb-2[data-v-079a325a] {
+.pb-2[data-v-d1e6fcc1] {
   padding-bottom: 2px;
 }
-.pb-3[data-v-079a325a] {
+.pb-3[data-v-d1e6fcc1] {
   padding-bottom: 3px;
 }
-.pb-4[data-v-079a325a] {
+.pb-4[data-v-d1e6fcc1] {
   padding-bottom: 4px;
 }
-.pb-5[data-v-079a325a] {
+.pb-5[data-v-d1e6fcc1] {
   padding-bottom: 5px;
 }
-.pb-6[data-v-079a325a] {
+.pb-6[data-v-d1e6fcc1] {
   padding-bottom: 6px;
 }
-.pb-7[data-v-079a325a] {
+.pb-7[data-v-d1e6fcc1] {
   padding-bottom: 7px;
 }
-.pb-8[data-v-079a325a] {
+.pb-8[data-v-d1e6fcc1] {
   padding-bottom: 8px;
 }
-.pb-9[data-v-079a325a] {
+.pb-9[data-v-d1e6fcc1] {
   padding-bottom: 9px;
 }
-.pb-10[data-v-079a325a] {
+.pb-10[data-v-d1e6fcc1] {
   padding-bottom: 10px;
 }
-.pb-12[data-v-079a325a] {
+.pb-12[data-v-d1e6fcc1] {
   padding-bottom: 12px;
 }
-.pb-14[data-v-079a325a] {
+.pb-14[data-v-d1e6fcc1] {
   padding-bottom: 14px;
 }
-.pb-16[data-v-079a325a] {
+.pb-16[data-v-d1e6fcc1] {
   padding-bottom: 16px;
 }
-.pb-18[data-v-079a325a] {
+.pb-18[data-v-d1e6fcc1] {
   padding-bottom: 18px;
 }
-.pb-20[data-v-079a325a] {
+.pb-20[data-v-d1e6fcc1] {
   padding-bottom: 20px;
 }
-.pb-22[data-v-079a325a] {
+.pb-22[data-v-d1e6fcc1] {
   padding-bottom: 22px;
 }
-.pb-24[data-v-079a325a] {
+.pb-24[data-v-d1e6fcc1] {
   padding-bottom: 24px;
 }
-.pb-26[data-v-079a325a] {
+.pb-26[data-v-d1e6fcc1] {
   padding-bottom: 26px;
 }
-.pb-28[data-v-079a325a] {
+.pb-28[data-v-d1e6fcc1] {
   padding-bottom: 28px;
 }
-.pb-30[data-v-079a325a] {
+.pb-30[data-v-d1e6fcc1] {
   padding-bottom: 30px;
 }
-.pb-32[data-v-079a325a] {
+.pb-32[data-v-d1e6fcc1] {
   padding-bottom: 32px;
 }
-.pb-34[data-v-079a325a] {
+.pb-34[data-v-d1e6fcc1] {
   padding-bottom: 34px;
 }
-.pb-36[data-v-079a325a] {
+.pb-36[data-v-d1e6fcc1] {
   padding-bottom: 36px;
 }
-.pl-0[data-v-079a325a] {
+.pl-0[data-v-d1e6fcc1] {
   padding-left: 0px;
 }
-.pl-1[data-v-079a325a] {
+.pl-1[data-v-d1e6fcc1] {
   padding-left: 1px;
 }
-.pl-2[data-v-079a325a] {
+.pl-2[data-v-d1e6fcc1] {
   padding-left: 2px;
 }
-.pl-3[data-v-079a325a] {
+.pl-3[data-v-d1e6fcc1] {
   padding-left: 3px;
 }
-.pl-4[data-v-079a325a] {
+.pl-4[data-v-d1e6fcc1] {
   padding-left: 4px;
 }
-.pl-5[data-v-079a325a] {
+.pl-5[data-v-d1e6fcc1] {
   padding-left: 5px;
 }
-.pl-6[data-v-079a325a] {
+.pl-6[data-v-d1e6fcc1] {
   padding-left: 6px;
 }
-.pl-7[data-v-079a325a] {
+.pl-7[data-v-d1e6fcc1] {
   padding-left: 7px;
 }
-.pl-8[data-v-079a325a] {
+.pl-8[data-v-d1e6fcc1] {
   padding-left: 8px;
 }
-.pl-9[data-v-079a325a] {
+.pl-9[data-v-d1e6fcc1] {
   padding-left: 9px;
 }
-.pl-10[data-v-079a325a] {
+.pl-10[data-v-d1e6fcc1] {
   padding-left: 10px;
 }
-.pl-12[data-v-079a325a] {
+.pl-12[data-v-d1e6fcc1] {
   padding-left: 12px;
 }
-.pl-14[data-v-079a325a] {
+.pl-14[data-v-d1e6fcc1] {
   padding-left: 14px;
 }
-.pl-16[data-v-079a325a] {
+.pl-16[data-v-d1e6fcc1] {
   padding-left: 16px;
 }
-.pl-18[data-v-079a325a] {
+.pl-18[data-v-d1e6fcc1] {
   padding-left: 18px;
 }
-.pl-20[data-v-079a325a] {
+.pl-20[data-v-d1e6fcc1] {
   padding-left: 20px;
 }
-.pl-22[data-v-079a325a] {
+.pl-22[data-v-d1e6fcc1] {
   padding-left: 22px;
 }
-.pl-24[data-v-079a325a] {
+.pl-24[data-v-d1e6fcc1] {
   padding-left: 24px;
 }
-.pl-26[data-v-079a325a] {
+.pl-26[data-v-d1e6fcc1] {
   padding-left: 26px;
 }
-.pl-28[data-v-079a325a] {
+.pl-28[data-v-d1e6fcc1] {
   padding-left: 28px;
 }
-.pl-30[data-v-079a325a] {
+.pl-30[data-v-d1e6fcc1] {
   padding-left: 30px;
 }
-.pl-32[data-v-079a325a] {
+.pl-32[data-v-d1e6fcc1] {
   padding-left: 32px;
 }
-.pl-34[data-v-079a325a] {
+.pl-34[data-v-d1e6fcc1] {
   padding-left: 34px;
 }
-.pl-36[data-v-079a325a] {
+.pl-36[data-v-d1e6fcc1] {
   padding-left: 36px;
 }
-.pr-0[data-v-079a325a] {
+.pr-0[data-v-d1e6fcc1] {
   padding-right: 0px;
 }
-.pr-1[data-v-079a325a] {
+.pr-1[data-v-d1e6fcc1] {
   padding-right: 1px;
 }
-.pr-2[data-v-079a325a] {
+.pr-2[data-v-d1e6fcc1] {
   padding-right: 2px;
 }
-.pr-3[data-v-079a325a] {
+.pr-3[data-v-d1e6fcc1] {
   padding-right: 3px;
 }
-.pr-4[data-v-079a325a] {
+.pr-4[data-v-d1e6fcc1] {
   padding-right: 4px;
 }
-.pr-5[data-v-079a325a] {
+.pr-5[data-v-d1e6fcc1] {
   padding-right: 5px;
 }
-.pr-6[data-v-079a325a] {
+.pr-6[data-v-d1e6fcc1] {
   padding-right: 6px;
 }
-.pr-7[data-v-079a325a] {
+.pr-7[data-v-d1e6fcc1] {
   padding-right: 7px;
 }
-.pr-8[data-v-079a325a] {
+.pr-8[data-v-d1e6fcc1] {
   padding-right: 8px;
 }
-.pr-9[data-v-079a325a] {
+.pr-9[data-v-d1e6fcc1] {
   padding-right: 9px;
 }
-.pr-10[data-v-079a325a] {
+.pr-10[data-v-d1e6fcc1] {
   padding-right: 10px;
 }
-.pr-12[data-v-079a325a] {
+.pr-12[data-v-d1e6fcc1] {
   padding-right: 12px;
 }
-.pr-14[data-v-079a325a] {
+.pr-14[data-v-d1e6fcc1] {
   padding-right: 14px;
 }
-.pr-16[data-v-079a325a] {
+.pr-16[data-v-d1e6fcc1] {
   padding-right: 16px;
 }
-.pr-18[data-v-079a325a] {
+.pr-18[data-v-d1e6fcc1] {
   padding-right: 18px;
 }
-.pr-20[data-v-079a325a] {
+.pr-20[data-v-d1e6fcc1] {
   padding-right: 20px;
 }
-.pr-22[data-v-079a325a] {
+.pr-22[data-v-d1e6fcc1] {
   padding-right: 22px;
 }
-.pr-24[data-v-079a325a] {
+.pr-24[data-v-d1e6fcc1] {
   padding-right: 24px;
 }
-.pr-26[data-v-079a325a] {
+.pr-26[data-v-d1e6fcc1] {
   padding-right: 26px;
 }
-.pr-28[data-v-079a325a] {
+.pr-28[data-v-d1e6fcc1] {
   padding-right: 28px;
 }
-.pr-30[data-v-079a325a] {
+.pr-30[data-v-d1e6fcc1] {
   padding-right: 30px;
 }
-.pr-32[data-v-079a325a] {
+.pr-32[data-v-d1e6fcc1] {
   padding-right: 32px;
 }
-.pr-34[data-v-079a325a] {
+.pr-34[data-v-d1e6fcc1] {
   padding-right: 34px;
 }
-.pr-36[data-v-079a325a] {
+.pr-36[data-v-d1e6fcc1] {
   padding-right: 36px;
 }
-html[data-v-079a325a] {
+html[data-v-d1e6fcc1] {
   --primary-color: #00703d;
   --primary-disabled-color: #99c6b1;
   --primary-bg-color: #edf8ef;
@@ -5325,52 +5335,52 @@ html[data-v-079a325a] {
   --warn-2: #fff6e7;
   --antd-wave-shadow-color: var(--primary-color) !important;
 }
-span[data-v-079a325a] {
+span[data-v-d1e6fcc1] {
   color: var(--text-1);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
-.text-1[data-v-079a325a] {
+.text-1[data-v-d1e6fcc1] {
   color: var(--text-1);
 }
-.text-2[data-v-079a325a] {
+.text-2[data-v-d1e6fcc1] {
   color: var(--text-2);
 }
-.text-3[data-v-079a325a] {
+.text-3[data-v-d1e6fcc1] {
   color: var(--text-3);
 }
-.text-4[data-v-079a325a] {
+.text-4[data-v-d1e6fcc1] {
   color: var(--text-4);
 }
-.white[data-v-079a325a] {
+.white[data-v-d1e6fcc1] {
   color: var(--white);
 }
-.primary-color[data-v-079a325a] {
+.primary-color[data-v-d1e6fcc1] {
   color: var(--primary-color);
 }
-.error-color[data-v-079a325a] {
+.error-color[data-v-d1e6fcc1] {
   color: var(--error-1);
 }
-.neutral-icon[data-v-079a325a] {
+.neutral-icon[data-v-d1e6fcc1] {
   color: var(--neutral-icon);
 }
-.chat-content[data-v-079a325a] {
+.chat-content[data-v-d1e6fcc1] {
   display: flex;
   flex-direction: column;
 }
-.main-chat[data-v-079a325a] {
+.main-chat[data-v-d1e6fcc1] {
   display: flex;
   gap: 12px;
   margin-right: 48px;
   margin-top: 8px;
 }
-.main-chat-wrapper[data-v-079a325a] {
+.main-chat-wrapper[data-v-d1e6fcc1] {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.main-chat-bubble[data-v-079a325a] {
+.main-chat-bubble[data-v-d1e6fcc1] {
   padding: 8px 12px;
   background-color: white;
   border-radius: 4px;
@@ -5378,710 +5388,710 @@ span[data-v-079a325a] {
   height: fit-content;
   margin-left: 52px;
 }
-.main-chat-bubble.my-chat[data-v-079a325a] {
+.main-chat-bubble.my-chat[data-v-d1e6fcc1] {
   background-color: var(--bubble-color);
   margin-right: 52px;
   margin-left: 0px;
 }
-.main-chat-bubble.first-chat[data-v-079a325a] {
+.main-chat-bubble.first-chat[data-v-d1e6fcc1] {
   margin-inline: 0px;
 }
-.main-chat.my-chat[data-v-079a325a] {
+.main-chat.my-chat[data-v-d1e6fcc1] {
   flex-direction: row-reverse;
   margin-right: 0px;
   margin-left: 48px;
 }
-.main-chat.first-chat[data-v-079a325a] {
+.main-chat.first-chat[data-v-d1e6fcc1] {
   margin-top: 24px;
 }
-.username-label[data-v-079a325a] {
+.username-label[data-v-d1e6fcc1] {
   color: #616961;
 }
-.w-100[data-v-637449cf] {
+.w-100[data-v-0bd73be3] {
   font-weight: 100;
 }
-.w-200[data-v-637449cf] {
+.w-200[data-v-0bd73be3] {
   font-weight: 200;
 }
-.w-300[data-v-637449cf] {
+.w-300[data-v-0bd73be3] {
   font-weight: 300;
 }
-.w-400[data-v-637449cf] {
+.w-400[data-v-0bd73be3] {
   font-weight: 400;
 }
-.w-500[data-v-637449cf] {
+.w-500[data-v-0bd73be3] {
   font-weight: 500;
 }
-.w-600[data-v-637449cf] {
+.w-600[data-v-0bd73be3] {
   font-weight: 600;
 }
-.w-700[data-v-637449cf] {
+.w-700[data-v-0bd73be3] {
   font-weight: 700;
 }
-.w-800[data-v-637449cf] {
+.w-800[data-v-0bd73be3] {
   font-weight: 800;
 }
-.w-900[data-v-637449cf] {
+.w-900[data-v-0bd73be3] {
   font-weight: 900;
 }
-html[data-v-637449cf] {
+html[data-v-0bd73be3] {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.s-8[data-v-637449cf] {
+.s-8[data-v-0bd73be3] {
   font-size: 8px;
 }
-.s-10[data-v-637449cf] {
+.s-10[data-v-0bd73be3] {
   font-size: 10px;
 }
-.s-12[data-v-637449cf] {
+.s-12[data-v-0bd73be3] {
   font-size: 12px;
 }
-.s-13[data-v-637449cf] {
+.s-13[data-v-0bd73be3] {
   font-size: 13px;
 }
-.s-14[data-v-637449cf] {
+.s-14[data-v-0bd73be3] {
   font-size: 14px;
 }
-.s-16[data-v-637449cf] {
+.s-16[data-v-0bd73be3] {
   font-size: 16px;
 }
-.s-18[data-v-637449cf] {
+.s-18[data-v-0bd73be3] {
   font-size: 18px;
 }
-.s-20[data-v-637449cf] {
+.s-20[data-v-0bd73be3] {
   font-size: 20px;
 }
-.s-22[data-v-637449cf] {
+.s-22[data-v-0bd73be3] {
   font-size: 22px;
 }
-.s-24[data-v-637449cf] {
+.s-24[data-v-0bd73be3] {
   font-size: 24px;
 }
-.s-32[data-v-637449cf] {
+.s-32[data-v-0bd73be3] {
   font-size: 32px;
 }
-.s-36[data-v-637449cf] {
+.s-36[data-v-0bd73be3] {
   font-size: 36px;
 }
-.s-40[data-v-637449cf] {
+.s-40[data-v-0bd73be3] {
   font-size: 40px;
 }
-.l-8[data-v-637449cf] {
+.l-8[data-v-0bd73be3] {
   line-height: 8px;
 }
-.l-10[data-v-637449cf] {
+.l-10[data-v-0bd73be3] {
   line-height: 10px;
 }
-.l-12[data-v-637449cf] {
+.l-12[data-v-0bd73be3] {
   line-height: 12px;
 }
-.l-13[data-v-637449cf] {
+.l-13[data-v-0bd73be3] {
   line-height: 13px;
 }
-.l-14[data-v-637449cf] {
+.l-14[data-v-0bd73be3] {
   line-height: 14px;
 }
-.l-16[data-v-637449cf] {
+.l-16[data-v-0bd73be3] {
   line-height: 16px;
 }
-.l-18[data-v-637449cf] {
+.l-18[data-v-0bd73be3] {
   line-height: 18px;
 }
-.l-20[data-v-637449cf] {
+.l-20[data-v-0bd73be3] {
   line-height: 20px;
 }
-.l-22[data-v-637449cf] {
+.l-22[data-v-0bd73be3] {
   line-height: 22px;
 }
-.l-24[data-v-637449cf] {
+.l-24[data-v-0bd73be3] {
   line-height: 24px;
 }
-.l-32[data-v-637449cf] {
+.l-32[data-v-0bd73be3] {
   line-height: 32px;
 }
-.l-36[data-v-637449cf] {
+.l-36[data-v-0bd73be3] {
   line-height: 36px;
 }
-.l-40[data-v-637449cf] {
+.l-40[data-v-0bd73be3] {
   line-height: 40px;
 }
-.mt-0[data-v-637449cf] {
+.mt-0[data-v-0bd73be3] {
   margin-top: 0px;
 }
-.mt-1[data-v-637449cf] {
+.mt-1[data-v-0bd73be3] {
   margin-top: 1px;
 }
-.mt-2[data-v-637449cf] {
+.mt-2[data-v-0bd73be3] {
   margin-top: 2px;
 }
-.mt-3[data-v-637449cf] {
+.mt-3[data-v-0bd73be3] {
   margin-top: 3px;
 }
-.mt-4[data-v-637449cf] {
+.mt-4[data-v-0bd73be3] {
   margin-top: 4px;
 }
-.mt-5[data-v-637449cf] {
+.mt-5[data-v-0bd73be3] {
   margin-top: 5px;
 }
-.mt-6[data-v-637449cf] {
+.mt-6[data-v-0bd73be3] {
   margin-top: 6px;
 }
-.mt-7[data-v-637449cf] {
+.mt-7[data-v-0bd73be3] {
   margin-top: 7px;
 }
-.mt-8[data-v-637449cf] {
+.mt-8[data-v-0bd73be3] {
   margin-top: 8px;
 }
-.mt-9[data-v-637449cf] {
+.mt-9[data-v-0bd73be3] {
   margin-top: 9px;
 }
-.mt-10[data-v-637449cf] {
+.mt-10[data-v-0bd73be3] {
   margin-top: 10px;
 }
-.mt-12[data-v-637449cf] {
+.mt-12[data-v-0bd73be3] {
   margin-top: 12px;
 }
-.mt-14[data-v-637449cf] {
+.mt-14[data-v-0bd73be3] {
   margin-top: 14px;
 }
-.mt-16[data-v-637449cf] {
+.mt-16[data-v-0bd73be3] {
   margin-top: 16px;
 }
-.mt-18[data-v-637449cf] {
+.mt-18[data-v-0bd73be3] {
   margin-top: 18px;
 }
-.mt-20[data-v-637449cf] {
+.mt-20[data-v-0bd73be3] {
   margin-top: 20px;
 }
-.mt-22[data-v-637449cf] {
+.mt-22[data-v-0bd73be3] {
   margin-top: 22px;
 }
-.mt-24[data-v-637449cf] {
+.mt-24[data-v-0bd73be3] {
   margin-top: 24px;
 }
-.mt-26[data-v-637449cf] {
+.mt-26[data-v-0bd73be3] {
   margin-top: 26px;
 }
-.mt-28[data-v-637449cf] {
+.mt-28[data-v-0bd73be3] {
   margin-top: 28px;
 }
-.mt-30[data-v-637449cf] {
+.mt-30[data-v-0bd73be3] {
   margin-top: 30px;
 }
-.mt-32[data-v-637449cf] {
+.mt-32[data-v-0bd73be3] {
   margin-top: 32px;
 }
-.mt-34[data-v-637449cf] {
+.mt-34[data-v-0bd73be3] {
   margin-top: 34px;
 }
-.mt-36[data-v-637449cf] {
+.mt-36[data-v-0bd73be3] {
   margin-top: 36px;
 }
-.mb-0[data-v-637449cf] {
+.mb-0[data-v-0bd73be3] {
   margin-bottom: 0px;
 }
-.mb-1[data-v-637449cf] {
+.mb-1[data-v-0bd73be3] {
   margin-bottom: 1px;
 }
-.mb-2[data-v-637449cf] {
+.mb-2[data-v-0bd73be3] {
   margin-bottom: 2px;
 }
-.mb-3[data-v-637449cf] {
+.mb-3[data-v-0bd73be3] {
   margin-bottom: 3px;
 }
-.mb-4[data-v-637449cf] {
+.mb-4[data-v-0bd73be3] {
   margin-bottom: 4px;
 }
-.mb-5[data-v-637449cf] {
+.mb-5[data-v-0bd73be3] {
   margin-bottom: 5px;
 }
-.mb-6[data-v-637449cf] {
+.mb-6[data-v-0bd73be3] {
   margin-bottom: 6px;
 }
-.mb-7[data-v-637449cf] {
+.mb-7[data-v-0bd73be3] {
   margin-bottom: 7px;
 }
-.mb-8[data-v-637449cf] {
+.mb-8[data-v-0bd73be3] {
   margin-bottom: 8px;
 }
-.mb-9[data-v-637449cf] {
+.mb-9[data-v-0bd73be3] {
   margin-bottom: 9px;
 }
-.mb-10[data-v-637449cf] {
+.mb-10[data-v-0bd73be3] {
   margin-bottom: 10px;
 }
-.mb-12[data-v-637449cf] {
+.mb-12[data-v-0bd73be3] {
   margin-bottom: 12px;
 }
-.mb-14[data-v-637449cf] {
+.mb-14[data-v-0bd73be3] {
   margin-bottom: 14px;
 }
-.mb-16[data-v-637449cf] {
+.mb-16[data-v-0bd73be3] {
   margin-bottom: 16px;
 }
-.mb-18[data-v-637449cf] {
+.mb-18[data-v-0bd73be3] {
   margin-bottom: 18px;
 }
-.mb-20[data-v-637449cf] {
+.mb-20[data-v-0bd73be3] {
   margin-bottom: 20px;
 }
-.mb-22[data-v-637449cf] {
+.mb-22[data-v-0bd73be3] {
   margin-bottom: 22px;
 }
-.mb-24[data-v-637449cf] {
+.mb-24[data-v-0bd73be3] {
   margin-bottom: 24px;
 }
-.mb-26[data-v-637449cf] {
+.mb-26[data-v-0bd73be3] {
   margin-bottom: 26px;
 }
-.mb-28[data-v-637449cf] {
+.mb-28[data-v-0bd73be3] {
   margin-bottom: 28px;
 }
-.mb-30[data-v-637449cf] {
+.mb-30[data-v-0bd73be3] {
   margin-bottom: 30px;
 }
-.mb-32[data-v-637449cf] {
+.mb-32[data-v-0bd73be3] {
   margin-bottom: 32px;
 }
-.mb-34[data-v-637449cf] {
+.mb-34[data-v-0bd73be3] {
   margin-bottom: 34px;
 }
-.mb-36[data-v-637449cf] {
+.mb-36[data-v-0bd73be3] {
   margin-bottom: 36px;
 }
-.ml-0[data-v-637449cf] {
+.ml-0[data-v-0bd73be3] {
   margin-left: 0px;
 }
-.ml-1[data-v-637449cf] {
+.ml-1[data-v-0bd73be3] {
   margin-left: 1px;
 }
-.ml-2[data-v-637449cf] {
+.ml-2[data-v-0bd73be3] {
   margin-left: 2px;
 }
-.ml-3[data-v-637449cf] {
+.ml-3[data-v-0bd73be3] {
   margin-left: 3px;
 }
-.ml-4[data-v-637449cf] {
+.ml-4[data-v-0bd73be3] {
   margin-left: 4px;
 }
-.ml-5[data-v-637449cf] {
+.ml-5[data-v-0bd73be3] {
   margin-left: 5px;
 }
-.ml-6[data-v-637449cf] {
+.ml-6[data-v-0bd73be3] {
   margin-left: 6px;
 }
-.ml-7[data-v-637449cf] {
+.ml-7[data-v-0bd73be3] {
   margin-left: 7px;
 }
-.ml-8[data-v-637449cf] {
+.ml-8[data-v-0bd73be3] {
   margin-left: 8px;
 }
-.ml-9[data-v-637449cf] {
+.ml-9[data-v-0bd73be3] {
   margin-left: 9px;
 }
-.ml-10[data-v-637449cf] {
+.ml-10[data-v-0bd73be3] {
   margin-left: 10px;
 }
-.ml-12[data-v-637449cf] {
+.ml-12[data-v-0bd73be3] {
   margin-left: 12px;
 }
-.ml-14[data-v-637449cf] {
+.ml-14[data-v-0bd73be3] {
   margin-left: 14px;
 }
-.ml-16[data-v-637449cf] {
+.ml-16[data-v-0bd73be3] {
   margin-left: 16px;
 }
-.ml-18[data-v-637449cf] {
+.ml-18[data-v-0bd73be3] {
   margin-left: 18px;
 }
-.ml-20[data-v-637449cf] {
+.ml-20[data-v-0bd73be3] {
   margin-left: 20px;
 }
-.ml-22[data-v-637449cf] {
+.ml-22[data-v-0bd73be3] {
   margin-left: 22px;
 }
-.ml-24[data-v-637449cf] {
+.ml-24[data-v-0bd73be3] {
   margin-left: 24px;
 }
-.ml-26[data-v-637449cf] {
+.ml-26[data-v-0bd73be3] {
   margin-left: 26px;
 }
-.ml-28[data-v-637449cf] {
+.ml-28[data-v-0bd73be3] {
   margin-left: 28px;
 }
-.ml-30[data-v-637449cf] {
+.ml-30[data-v-0bd73be3] {
   margin-left: 30px;
 }
-.ml-32[data-v-637449cf] {
+.ml-32[data-v-0bd73be3] {
   margin-left: 32px;
 }
-.ml-34[data-v-637449cf] {
+.ml-34[data-v-0bd73be3] {
   margin-left: 34px;
 }
-.ml-36[data-v-637449cf] {
+.ml-36[data-v-0bd73be3] {
   margin-left: 36px;
 }
-.mr-0[data-v-637449cf] {
+.mr-0[data-v-0bd73be3] {
   margin-right: 0px;
 }
-.mr-1[data-v-637449cf] {
+.mr-1[data-v-0bd73be3] {
   margin-right: 1px;
 }
-.mr-2[data-v-637449cf] {
+.mr-2[data-v-0bd73be3] {
   margin-right: 2px;
 }
-.mr-3[data-v-637449cf] {
+.mr-3[data-v-0bd73be3] {
   margin-right: 3px;
 }
-.mr-4[data-v-637449cf] {
+.mr-4[data-v-0bd73be3] {
   margin-right: 4px;
 }
-.mr-5[data-v-637449cf] {
+.mr-5[data-v-0bd73be3] {
   margin-right: 5px;
 }
-.mr-6[data-v-637449cf] {
+.mr-6[data-v-0bd73be3] {
   margin-right: 6px;
 }
-.mr-7[data-v-637449cf] {
+.mr-7[data-v-0bd73be3] {
   margin-right: 7px;
 }
-.mr-8[data-v-637449cf] {
+.mr-8[data-v-0bd73be3] {
   margin-right: 8px;
 }
-.mr-9[data-v-637449cf] {
+.mr-9[data-v-0bd73be3] {
   margin-right: 9px;
 }
-.mr-10[data-v-637449cf] {
+.mr-10[data-v-0bd73be3] {
   margin-right: 10px;
 }
-.mr-12[data-v-637449cf] {
+.mr-12[data-v-0bd73be3] {
   margin-right: 12px;
 }
-.mr-14[data-v-637449cf] {
+.mr-14[data-v-0bd73be3] {
   margin-right: 14px;
 }
-.mr-16[data-v-637449cf] {
+.mr-16[data-v-0bd73be3] {
   margin-right: 16px;
 }
-.mr-18[data-v-637449cf] {
+.mr-18[data-v-0bd73be3] {
   margin-right: 18px;
 }
-.mr-20[data-v-637449cf] {
+.mr-20[data-v-0bd73be3] {
   margin-right: 20px;
 }
-.mr-22[data-v-637449cf] {
+.mr-22[data-v-0bd73be3] {
   margin-right: 22px;
 }
-.mr-24[data-v-637449cf] {
+.mr-24[data-v-0bd73be3] {
   margin-right: 24px;
 }
-.mr-26[data-v-637449cf] {
+.mr-26[data-v-0bd73be3] {
   margin-right: 26px;
 }
-.mr-28[data-v-637449cf] {
+.mr-28[data-v-0bd73be3] {
   margin-right: 28px;
 }
-.mr-30[data-v-637449cf] {
+.mr-30[data-v-0bd73be3] {
   margin-right: 30px;
 }
-.mr-32[data-v-637449cf] {
+.mr-32[data-v-0bd73be3] {
   margin-right: 32px;
 }
-.mr-34[data-v-637449cf] {
+.mr-34[data-v-0bd73be3] {
   margin-right: 34px;
 }
-.mr-36[data-v-637449cf] {
+.mr-36[data-v-0bd73be3] {
   margin-right: 36px;
 }
-.pt-0[data-v-637449cf] {
+.pt-0[data-v-0bd73be3] {
   padding-top: 0px;
 }
-.pt-1[data-v-637449cf] {
+.pt-1[data-v-0bd73be3] {
   padding-top: 1px;
 }
-.pt-2[data-v-637449cf] {
+.pt-2[data-v-0bd73be3] {
   padding-top: 2px;
 }
-.pt-3[data-v-637449cf] {
+.pt-3[data-v-0bd73be3] {
   padding-top: 3px;
 }
-.pt-4[data-v-637449cf] {
+.pt-4[data-v-0bd73be3] {
   padding-top: 4px;
 }
-.pt-5[data-v-637449cf] {
+.pt-5[data-v-0bd73be3] {
   padding-top: 5px;
 }
-.pt-6[data-v-637449cf] {
+.pt-6[data-v-0bd73be3] {
   padding-top: 6px;
 }
-.pt-7[data-v-637449cf] {
+.pt-7[data-v-0bd73be3] {
   padding-top: 7px;
 }
-.pt-8[data-v-637449cf] {
+.pt-8[data-v-0bd73be3] {
   padding-top: 8px;
 }
-.pt-9[data-v-637449cf] {
+.pt-9[data-v-0bd73be3] {
   padding-top: 9px;
 }
-.pt-10[data-v-637449cf] {
+.pt-10[data-v-0bd73be3] {
   padding-top: 10px;
 }
-.pt-12[data-v-637449cf] {
+.pt-12[data-v-0bd73be3] {
   padding-top: 12px;
 }
-.pt-14[data-v-637449cf] {
+.pt-14[data-v-0bd73be3] {
   padding-top: 14px;
 }
-.pt-16[data-v-637449cf] {
+.pt-16[data-v-0bd73be3] {
   padding-top: 16px;
 }
-.pt-18[data-v-637449cf] {
+.pt-18[data-v-0bd73be3] {
   padding-top: 18px;
 }
-.pt-20[data-v-637449cf] {
+.pt-20[data-v-0bd73be3] {
   padding-top: 20px;
 }
-.pt-22[data-v-637449cf] {
+.pt-22[data-v-0bd73be3] {
   padding-top: 22px;
 }
-.pt-24[data-v-637449cf] {
+.pt-24[data-v-0bd73be3] {
   padding-top: 24px;
 }
-.pt-26[data-v-637449cf] {
+.pt-26[data-v-0bd73be3] {
   padding-top: 26px;
 }
-.pt-28[data-v-637449cf] {
+.pt-28[data-v-0bd73be3] {
   padding-top: 28px;
 }
-.pt-30[data-v-637449cf] {
+.pt-30[data-v-0bd73be3] {
   padding-top: 30px;
 }
-.pt-32[data-v-637449cf] {
+.pt-32[data-v-0bd73be3] {
   padding-top: 32px;
 }
-.pt-34[data-v-637449cf] {
+.pt-34[data-v-0bd73be3] {
   padding-top: 34px;
 }
-.pt-36[data-v-637449cf] {
+.pt-36[data-v-0bd73be3] {
   padding-top: 36px;
 }
-.pb-0[data-v-637449cf] {
+.pb-0[data-v-0bd73be3] {
   padding-bottom: 0px;
 }
-.pb-1[data-v-637449cf] {
+.pb-1[data-v-0bd73be3] {
   padding-bottom: 1px;
 }
-.pb-2[data-v-637449cf] {
+.pb-2[data-v-0bd73be3] {
   padding-bottom: 2px;
 }
-.pb-3[data-v-637449cf] {
+.pb-3[data-v-0bd73be3] {
   padding-bottom: 3px;
 }
-.pb-4[data-v-637449cf] {
+.pb-4[data-v-0bd73be3] {
   padding-bottom: 4px;
 }
-.pb-5[data-v-637449cf] {
+.pb-5[data-v-0bd73be3] {
   padding-bottom: 5px;
 }
-.pb-6[data-v-637449cf] {
+.pb-6[data-v-0bd73be3] {
   padding-bottom: 6px;
 }
-.pb-7[data-v-637449cf] {
+.pb-7[data-v-0bd73be3] {
   padding-bottom: 7px;
 }
-.pb-8[data-v-637449cf] {
+.pb-8[data-v-0bd73be3] {
   padding-bottom: 8px;
 }
-.pb-9[data-v-637449cf] {
+.pb-9[data-v-0bd73be3] {
   padding-bottom: 9px;
 }
-.pb-10[data-v-637449cf] {
+.pb-10[data-v-0bd73be3] {
   padding-bottom: 10px;
 }
-.pb-12[data-v-637449cf] {
+.pb-12[data-v-0bd73be3] {
   padding-bottom: 12px;
 }
-.pb-14[data-v-637449cf] {
+.pb-14[data-v-0bd73be3] {
   padding-bottom: 14px;
 }
-.pb-16[data-v-637449cf] {
+.pb-16[data-v-0bd73be3] {
   padding-bottom: 16px;
 }
-.pb-18[data-v-637449cf] {
+.pb-18[data-v-0bd73be3] {
   padding-bottom: 18px;
 }
-.pb-20[data-v-637449cf] {
+.pb-20[data-v-0bd73be3] {
   padding-bottom: 20px;
 }
-.pb-22[data-v-637449cf] {
+.pb-22[data-v-0bd73be3] {
   padding-bottom: 22px;
 }
-.pb-24[data-v-637449cf] {
+.pb-24[data-v-0bd73be3] {
   padding-bottom: 24px;
 }
-.pb-26[data-v-637449cf] {
+.pb-26[data-v-0bd73be3] {
   padding-bottom: 26px;
 }
-.pb-28[data-v-637449cf] {
+.pb-28[data-v-0bd73be3] {
   padding-bottom: 28px;
 }
-.pb-30[data-v-637449cf] {
+.pb-30[data-v-0bd73be3] {
   padding-bottom: 30px;
 }
-.pb-32[data-v-637449cf] {
+.pb-32[data-v-0bd73be3] {
   padding-bottom: 32px;
 }
-.pb-34[data-v-637449cf] {
+.pb-34[data-v-0bd73be3] {
   padding-bottom: 34px;
 }
-.pb-36[data-v-637449cf] {
+.pb-36[data-v-0bd73be3] {
   padding-bottom: 36px;
 }
-.pl-0[data-v-637449cf] {
+.pl-0[data-v-0bd73be3] {
   padding-left: 0px;
 }
-.pl-1[data-v-637449cf] {
+.pl-1[data-v-0bd73be3] {
   padding-left: 1px;
 }
-.pl-2[data-v-637449cf] {
+.pl-2[data-v-0bd73be3] {
   padding-left: 2px;
 }
-.pl-3[data-v-637449cf] {
+.pl-3[data-v-0bd73be3] {
   padding-left: 3px;
 }
-.pl-4[data-v-637449cf] {
+.pl-4[data-v-0bd73be3] {
   padding-left: 4px;
 }
-.pl-5[data-v-637449cf] {
+.pl-5[data-v-0bd73be3] {
   padding-left: 5px;
 }
-.pl-6[data-v-637449cf] {
+.pl-6[data-v-0bd73be3] {
   padding-left: 6px;
 }
-.pl-7[data-v-637449cf] {
+.pl-7[data-v-0bd73be3] {
   padding-left: 7px;
 }
-.pl-8[data-v-637449cf] {
+.pl-8[data-v-0bd73be3] {
   padding-left: 8px;
 }
-.pl-9[data-v-637449cf] {
+.pl-9[data-v-0bd73be3] {
   padding-left: 9px;
 }
-.pl-10[data-v-637449cf] {
+.pl-10[data-v-0bd73be3] {
   padding-left: 10px;
 }
-.pl-12[data-v-637449cf] {
+.pl-12[data-v-0bd73be3] {
   padding-left: 12px;
 }
-.pl-14[data-v-637449cf] {
+.pl-14[data-v-0bd73be3] {
   padding-left: 14px;
 }
-.pl-16[data-v-637449cf] {
+.pl-16[data-v-0bd73be3] {
   padding-left: 16px;
 }
-.pl-18[data-v-637449cf] {
+.pl-18[data-v-0bd73be3] {
   padding-left: 18px;
 }
-.pl-20[data-v-637449cf] {
+.pl-20[data-v-0bd73be3] {
   padding-left: 20px;
 }
-.pl-22[data-v-637449cf] {
+.pl-22[data-v-0bd73be3] {
   padding-left: 22px;
 }
-.pl-24[data-v-637449cf] {
+.pl-24[data-v-0bd73be3] {
   padding-left: 24px;
 }
-.pl-26[data-v-637449cf] {
+.pl-26[data-v-0bd73be3] {
   padding-left: 26px;
 }
-.pl-28[data-v-637449cf] {
+.pl-28[data-v-0bd73be3] {
   padding-left: 28px;
 }
-.pl-30[data-v-637449cf] {
+.pl-30[data-v-0bd73be3] {
   padding-left: 30px;
 }
-.pl-32[data-v-637449cf] {
+.pl-32[data-v-0bd73be3] {
   padding-left: 32px;
 }
-.pl-34[data-v-637449cf] {
+.pl-34[data-v-0bd73be3] {
   padding-left: 34px;
 }
-.pl-36[data-v-637449cf] {
+.pl-36[data-v-0bd73be3] {
   padding-left: 36px;
 }
-.pr-0[data-v-637449cf] {
+.pr-0[data-v-0bd73be3] {
   padding-right: 0px;
 }
-.pr-1[data-v-637449cf] {
+.pr-1[data-v-0bd73be3] {
   padding-right: 1px;
 }
-.pr-2[data-v-637449cf] {
+.pr-2[data-v-0bd73be3] {
   padding-right: 2px;
 }
-.pr-3[data-v-637449cf] {
+.pr-3[data-v-0bd73be3] {
   padding-right: 3px;
 }
-.pr-4[data-v-637449cf] {
+.pr-4[data-v-0bd73be3] {
   padding-right: 4px;
 }
-.pr-5[data-v-637449cf] {
+.pr-5[data-v-0bd73be3] {
   padding-right: 5px;
 }
-.pr-6[data-v-637449cf] {
+.pr-6[data-v-0bd73be3] {
   padding-right: 6px;
 }
-.pr-7[data-v-637449cf] {
+.pr-7[data-v-0bd73be3] {
   padding-right: 7px;
 }
-.pr-8[data-v-637449cf] {
+.pr-8[data-v-0bd73be3] {
   padding-right: 8px;
 }
-.pr-9[data-v-637449cf] {
+.pr-9[data-v-0bd73be3] {
   padding-right: 9px;
 }
-.pr-10[data-v-637449cf] {
+.pr-10[data-v-0bd73be3] {
   padding-right: 10px;
 }
-.pr-12[data-v-637449cf] {
+.pr-12[data-v-0bd73be3] {
   padding-right: 12px;
 }
-.pr-14[data-v-637449cf] {
+.pr-14[data-v-0bd73be3] {
   padding-right: 14px;
 }
-.pr-16[data-v-637449cf] {
+.pr-16[data-v-0bd73be3] {
   padding-right: 16px;
 }
-.pr-18[data-v-637449cf] {
+.pr-18[data-v-0bd73be3] {
   padding-right: 18px;
 }
-.pr-20[data-v-637449cf] {
+.pr-20[data-v-0bd73be3] {
   padding-right: 20px;
 }
-.pr-22[data-v-637449cf] {
+.pr-22[data-v-0bd73be3] {
   padding-right: 22px;
 }
-.pr-24[data-v-637449cf] {
+.pr-24[data-v-0bd73be3] {
   padding-right: 24px;
 }
-.pr-26[data-v-637449cf] {
+.pr-26[data-v-0bd73be3] {
   padding-right: 26px;
 }
-.pr-28[data-v-637449cf] {
+.pr-28[data-v-0bd73be3] {
   padding-right: 28px;
 }
-.pr-30[data-v-637449cf] {
+.pr-30[data-v-0bd73be3] {
   padding-right: 30px;
 }
-.pr-32[data-v-637449cf] {
+.pr-32[data-v-0bd73be3] {
   padding-right: 32px;
 }
-.pr-34[data-v-637449cf] {
+.pr-34[data-v-0bd73be3] {
   padding-right: 34px;
 }
-.pr-36[data-v-637449cf] {
+.pr-36[data-v-0bd73be3] {
   padding-right: 36px;
 }
-html[data-v-637449cf] {
+html[data-v-0bd73be3] {
   --primary-color: #00703d;
   --primary-disabled-color: #99c6b1;
   --primary-bg-color: #edf8ef;
@@ -6107,44 +6117,44 @@ html[data-v-637449cf] {
   --warn-2: #fff6e7;
   --antd-wave-shadow-color: var(--primary-color) !important;
 }
-span[data-v-637449cf] {
+span[data-v-0bd73be3] {
   color: var(--text-1);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
-.text-1[data-v-637449cf] {
+.text-1[data-v-0bd73be3] {
   color: var(--text-1);
 }
-.text-2[data-v-637449cf] {
+.text-2[data-v-0bd73be3] {
   color: var(--text-2);
 }
-.text-3[data-v-637449cf] {
+.text-3[data-v-0bd73be3] {
   color: var(--text-3);
 }
-.text-4[data-v-637449cf] {
+.text-4[data-v-0bd73be3] {
   color: var(--text-4);
 }
-.white[data-v-637449cf] {
+.white[data-v-0bd73be3] {
   color: var(--white);
 }
-.primary-color[data-v-637449cf] {
+.primary-color[data-v-0bd73be3] {
   color: var(--primary-color);
 }
-.error-color[data-v-637449cf] {
+.error-color[data-v-0bd73be3] {
   color: var(--error-1);
 }
-.neutral-icon[data-v-637449cf] {
+.neutral-icon[data-v-0bd73be3] {
   color: var(--neutral-icon);
 }
-.chat-container[data-v-637449cf] {
+.chat-container[data-v-0bd73be3] {
   display: grid;
   grid-template-rows: 1fr auto;
   height: calc(100% - 278px);
   padding-inline: 20px;
   overflow: auto;
 }
-.chat-container[data-v-637449cf]::-webkit-scrollbar {
+.chat-container[data-v-0bd73be3]::-webkit-scrollbar {
   width: 0px;
 }
 .w-100[data-v-7366b548] {
@@ -6914,691 +6924,691 @@ span[data-v-7366b548] {
   display: block;
   margin: 0;
 }
-.w-100[data-v-97a17485] {
+.w-100[data-v-83e11129] {
   font-weight: 100;
 }
-.w-200[data-v-97a17485] {
+.w-200[data-v-83e11129] {
   font-weight: 200;
 }
-.w-300[data-v-97a17485] {
+.w-300[data-v-83e11129] {
   font-weight: 300;
 }
-.w-400[data-v-97a17485] {
+.w-400[data-v-83e11129] {
   font-weight: 400;
 }
-.w-500[data-v-97a17485] {
+.w-500[data-v-83e11129] {
   font-weight: 500;
 }
-.w-600[data-v-97a17485] {
+.w-600[data-v-83e11129] {
   font-weight: 600;
 }
-.w-700[data-v-97a17485] {
+.w-700[data-v-83e11129] {
   font-weight: 700;
 }
-.w-800[data-v-97a17485] {
+.w-800[data-v-83e11129] {
   font-weight: 800;
 }
-.w-900[data-v-97a17485] {
+.w-900[data-v-83e11129] {
   font-weight: 900;
 }
-html[data-v-97a17485] {
+html[data-v-83e11129] {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.s-8[data-v-97a17485] {
+.s-8[data-v-83e11129] {
   font-size: 8px;
 }
-.s-10[data-v-97a17485] {
+.s-10[data-v-83e11129] {
   font-size: 10px;
 }
-.s-12[data-v-97a17485] {
+.s-12[data-v-83e11129] {
   font-size: 12px;
 }
-.s-13[data-v-97a17485] {
+.s-13[data-v-83e11129] {
   font-size: 13px;
 }
-.s-14[data-v-97a17485] {
+.s-14[data-v-83e11129] {
   font-size: 14px;
 }
-.s-16[data-v-97a17485] {
+.s-16[data-v-83e11129] {
   font-size: 16px;
 }
-.s-18[data-v-97a17485] {
+.s-18[data-v-83e11129] {
   font-size: 18px;
 }
-.s-20[data-v-97a17485] {
+.s-20[data-v-83e11129] {
   font-size: 20px;
 }
-.s-22[data-v-97a17485] {
+.s-22[data-v-83e11129] {
   font-size: 22px;
 }
-.s-24[data-v-97a17485] {
+.s-24[data-v-83e11129] {
   font-size: 24px;
 }
-.s-32[data-v-97a17485] {
+.s-32[data-v-83e11129] {
   font-size: 32px;
 }
-.s-36[data-v-97a17485] {
+.s-36[data-v-83e11129] {
   font-size: 36px;
 }
-.s-40[data-v-97a17485] {
+.s-40[data-v-83e11129] {
   font-size: 40px;
 }
-.l-8[data-v-97a17485] {
+.l-8[data-v-83e11129] {
   line-height: 8px;
 }
-.l-10[data-v-97a17485] {
+.l-10[data-v-83e11129] {
   line-height: 10px;
 }
-.l-12[data-v-97a17485] {
+.l-12[data-v-83e11129] {
   line-height: 12px;
 }
-.l-13[data-v-97a17485] {
+.l-13[data-v-83e11129] {
   line-height: 13px;
 }
-.l-14[data-v-97a17485] {
+.l-14[data-v-83e11129] {
   line-height: 14px;
 }
-.l-16[data-v-97a17485] {
+.l-16[data-v-83e11129] {
   line-height: 16px;
 }
-.l-18[data-v-97a17485] {
+.l-18[data-v-83e11129] {
   line-height: 18px;
 }
-.l-20[data-v-97a17485] {
+.l-20[data-v-83e11129] {
   line-height: 20px;
 }
-.l-22[data-v-97a17485] {
+.l-22[data-v-83e11129] {
   line-height: 22px;
 }
-.l-24[data-v-97a17485] {
+.l-24[data-v-83e11129] {
   line-height: 24px;
 }
-.l-32[data-v-97a17485] {
+.l-32[data-v-83e11129] {
   line-height: 32px;
 }
-.l-36[data-v-97a17485] {
+.l-36[data-v-83e11129] {
   line-height: 36px;
 }
-.l-40[data-v-97a17485] {
+.l-40[data-v-83e11129] {
   line-height: 40px;
 }
-.mt-0[data-v-97a17485] {
+.mt-0[data-v-83e11129] {
   margin-top: 0px;
 }
-.mt-1[data-v-97a17485] {
+.mt-1[data-v-83e11129] {
   margin-top: 1px;
 }
-.mt-2[data-v-97a17485] {
+.mt-2[data-v-83e11129] {
   margin-top: 2px;
 }
-.mt-3[data-v-97a17485] {
+.mt-3[data-v-83e11129] {
   margin-top: 3px;
 }
-.mt-4[data-v-97a17485] {
+.mt-4[data-v-83e11129] {
   margin-top: 4px;
 }
-.mt-5[data-v-97a17485] {
+.mt-5[data-v-83e11129] {
   margin-top: 5px;
 }
-.mt-6[data-v-97a17485] {
+.mt-6[data-v-83e11129] {
   margin-top: 6px;
 }
-.mt-7[data-v-97a17485] {
+.mt-7[data-v-83e11129] {
   margin-top: 7px;
 }
-.mt-8[data-v-97a17485] {
+.mt-8[data-v-83e11129] {
   margin-top: 8px;
 }
-.mt-9[data-v-97a17485] {
+.mt-9[data-v-83e11129] {
   margin-top: 9px;
 }
-.mt-10[data-v-97a17485] {
+.mt-10[data-v-83e11129] {
   margin-top: 10px;
 }
-.mt-12[data-v-97a17485] {
+.mt-12[data-v-83e11129] {
   margin-top: 12px;
 }
-.mt-14[data-v-97a17485] {
+.mt-14[data-v-83e11129] {
   margin-top: 14px;
 }
-.mt-16[data-v-97a17485] {
+.mt-16[data-v-83e11129] {
   margin-top: 16px;
 }
-.mt-18[data-v-97a17485] {
+.mt-18[data-v-83e11129] {
   margin-top: 18px;
 }
-.mt-20[data-v-97a17485] {
+.mt-20[data-v-83e11129] {
   margin-top: 20px;
 }
-.mt-22[data-v-97a17485] {
+.mt-22[data-v-83e11129] {
   margin-top: 22px;
 }
-.mt-24[data-v-97a17485] {
+.mt-24[data-v-83e11129] {
   margin-top: 24px;
 }
-.mt-26[data-v-97a17485] {
+.mt-26[data-v-83e11129] {
   margin-top: 26px;
 }
-.mt-28[data-v-97a17485] {
+.mt-28[data-v-83e11129] {
   margin-top: 28px;
 }
-.mt-30[data-v-97a17485] {
+.mt-30[data-v-83e11129] {
   margin-top: 30px;
 }
-.mt-32[data-v-97a17485] {
+.mt-32[data-v-83e11129] {
   margin-top: 32px;
 }
-.mt-34[data-v-97a17485] {
+.mt-34[data-v-83e11129] {
   margin-top: 34px;
 }
-.mt-36[data-v-97a17485] {
+.mt-36[data-v-83e11129] {
   margin-top: 36px;
 }
-.mb-0[data-v-97a17485] {
+.mb-0[data-v-83e11129] {
   margin-bottom: 0px;
 }
-.mb-1[data-v-97a17485] {
+.mb-1[data-v-83e11129] {
   margin-bottom: 1px;
 }
-.mb-2[data-v-97a17485] {
+.mb-2[data-v-83e11129] {
   margin-bottom: 2px;
 }
-.mb-3[data-v-97a17485] {
+.mb-3[data-v-83e11129] {
   margin-bottom: 3px;
 }
-.mb-4[data-v-97a17485] {
+.mb-4[data-v-83e11129] {
   margin-bottom: 4px;
 }
-.mb-5[data-v-97a17485] {
+.mb-5[data-v-83e11129] {
   margin-bottom: 5px;
 }
-.mb-6[data-v-97a17485] {
+.mb-6[data-v-83e11129] {
   margin-bottom: 6px;
 }
-.mb-7[data-v-97a17485] {
+.mb-7[data-v-83e11129] {
   margin-bottom: 7px;
 }
-.mb-8[data-v-97a17485] {
+.mb-8[data-v-83e11129] {
   margin-bottom: 8px;
 }
-.mb-9[data-v-97a17485] {
+.mb-9[data-v-83e11129] {
   margin-bottom: 9px;
 }
-.mb-10[data-v-97a17485] {
+.mb-10[data-v-83e11129] {
   margin-bottom: 10px;
 }
-.mb-12[data-v-97a17485] {
+.mb-12[data-v-83e11129] {
   margin-bottom: 12px;
 }
-.mb-14[data-v-97a17485] {
+.mb-14[data-v-83e11129] {
   margin-bottom: 14px;
 }
-.mb-16[data-v-97a17485] {
+.mb-16[data-v-83e11129] {
   margin-bottom: 16px;
 }
-.mb-18[data-v-97a17485] {
+.mb-18[data-v-83e11129] {
   margin-bottom: 18px;
 }
-.mb-20[data-v-97a17485] {
+.mb-20[data-v-83e11129] {
   margin-bottom: 20px;
 }
-.mb-22[data-v-97a17485] {
+.mb-22[data-v-83e11129] {
   margin-bottom: 22px;
 }
-.mb-24[data-v-97a17485] {
+.mb-24[data-v-83e11129] {
   margin-bottom: 24px;
 }
-.mb-26[data-v-97a17485] {
+.mb-26[data-v-83e11129] {
   margin-bottom: 26px;
 }
-.mb-28[data-v-97a17485] {
+.mb-28[data-v-83e11129] {
   margin-bottom: 28px;
 }
-.mb-30[data-v-97a17485] {
+.mb-30[data-v-83e11129] {
   margin-bottom: 30px;
 }
-.mb-32[data-v-97a17485] {
+.mb-32[data-v-83e11129] {
   margin-bottom: 32px;
 }
-.mb-34[data-v-97a17485] {
+.mb-34[data-v-83e11129] {
   margin-bottom: 34px;
 }
-.mb-36[data-v-97a17485] {
+.mb-36[data-v-83e11129] {
   margin-bottom: 36px;
 }
-.ml-0[data-v-97a17485] {
+.ml-0[data-v-83e11129] {
   margin-left: 0px;
 }
-.ml-1[data-v-97a17485] {
+.ml-1[data-v-83e11129] {
   margin-left: 1px;
 }
-.ml-2[data-v-97a17485] {
+.ml-2[data-v-83e11129] {
   margin-left: 2px;
 }
-.ml-3[data-v-97a17485] {
+.ml-3[data-v-83e11129] {
   margin-left: 3px;
 }
-.ml-4[data-v-97a17485] {
+.ml-4[data-v-83e11129] {
   margin-left: 4px;
 }
-.ml-5[data-v-97a17485] {
+.ml-5[data-v-83e11129] {
   margin-left: 5px;
 }
-.ml-6[data-v-97a17485] {
+.ml-6[data-v-83e11129] {
   margin-left: 6px;
 }
-.ml-7[data-v-97a17485] {
+.ml-7[data-v-83e11129] {
   margin-left: 7px;
 }
-.ml-8[data-v-97a17485] {
+.ml-8[data-v-83e11129] {
   margin-left: 8px;
 }
-.ml-9[data-v-97a17485] {
+.ml-9[data-v-83e11129] {
   margin-left: 9px;
 }
-.ml-10[data-v-97a17485] {
+.ml-10[data-v-83e11129] {
   margin-left: 10px;
 }
-.ml-12[data-v-97a17485] {
+.ml-12[data-v-83e11129] {
   margin-left: 12px;
 }
-.ml-14[data-v-97a17485] {
+.ml-14[data-v-83e11129] {
   margin-left: 14px;
 }
-.ml-16[data-v-97a17485] {
+.ml-16[data-v-83e11129] {
   margin-left: 16px;
 }
-.ml-18[data-v-97a17485] {
+.ml-18[data-v-83e11129] {
   margin-left: 18px;
 }
-.ml-20[data-v-97a17485] {
+.ml-20[data-v-83e11129] {
   margin-left: 20px;
 }
-.ml-22[data-v-97a17485] {
+.ml-22[data-v-83e11129] {
   margin-left: 22px;
 }
-.ml-24[data-v-97a17485] {
+.ml-24[data-v-83e11129] {
   margin-left: 24px;
 }
-.ml-26[data-v-97a17485] {
+.ml-26[data-v-83e11129] {
   margin-left: 26px;
 }
-.ml-28[data-v-97a17485] {
+.ml-28[data-v-83e11129] {
   margin-left: 28px;
 }
-.ml-30[data-v-97a17485] {
+.ml-30[data-v-83e11129] {
   margin-left: 30px;
 }
-.ml-32[data-v-97a17485] {
+.ml-32[data-v-83e11129] {
   margin-left: 32px;
 }
-.ml-34[data-v-97a17485] {
+.ml-34[data-v-83e11129] {
   margin-left: 34px;
 }
-.ml-36[data-v-97a17485] {
+.ml-36[data-v-83e11129] {
   margin-left: 36px;
 }
-.mr-0[data-v-97a17485] {
+.mr-0[data-v-83e11129] {
   margin-right: 0px;
 }
-.mr-1[data-v-97a17485] {
+.mr-1[data-v-83e11129] {
   margin-right: 1px;
 }
-.mr-2[data-v-97a17485] {
+.mr-2[data-v-83e11129] {
   margin-right: 2px;
 }
-.mr-3[data-v-97a17485] {
+.mr-3[data-v-83e11129] {
   margin-right: 3px;
 }
-.mr-4[data-v-97a17485] {
+.mr-4[data-v-83e11129] {
   margin-right: 4px;
 }
-.mr-5[data-v-97a17485] {
+.mr-5[data-v-83e11129] {
   margin-right: 5px;
 }
-.mr-6[data-v-97a17485] {
+.mr-6[data-v-83e11129] {
   margin-right: 6px;
 }
-.mr-7[data-v-97a17485] {
+.mr-7[data-v-83e11129] {
   margin-right: 7px;
 }
-.mr-8[data-v-97a17485] {
+.mr-8[data-v-83e11129] {
   margin-right: 8px;
 }
-.mr-9[data-v-97a17485] {
+.mr-9[data-v-83e11129] {
   margin-right: 9px;
 }
-.mr-10[data-v-97a17485] {
+.mr-10[data-v-83e11129] {
   margin-right: 10px;
 }
-.mr-12[data-v-97a17485] {
+.mr-12[data-v-83e11129] {
   margin-right: 12px;
 }
-.mr-14[data-v-97a17485] {
+.mr-14[data-v-83e11129] {
   margin-right: 14px;
 }
-.mr-16[data-v-97a17485] {
+.mr-16[data-v-83e11129] {
   margin-right: 16px;
 }
-.mr-18[data-v-97a17485] {
+.mr-18[data-v-83e11129] {
   margin-right: 18px;
 }
-.mr-20[data-v-97a17485] {
+.mr-20[data-v-83e11129] {
   margin-right: 20px;
 }
-.mr-22[data-v-97a17485] {
+.mr-22[data-v-83e11129] {
   margin-right: 22px;
 }
-.mr-24[data-v-97a17485] {
+.mr-24[data-v-83e11129] {
   margin-right: 24px;
 }
-.mr-26[data-v-97a17485] {
+.mr-26[data-v-83e11129] {
   margin-right: 26px;
 }
-.mr-28[data-v-97a17485] {
+.mr-28[data-v-83e11129] {
   margin-right: 28px;
 }
-.mr-30[data-v-97a17485] {
+.mr-30[data-v-83e11129] {
   margin-right: 30px;
 }
-.mr-32[data-v-97a17485] {
+.mr-32[data-v-83e11129] {
   margin-right: 32px;
 }
-.mr-34[data-v-97a17485] {
+.mr-34[data-v-83e11129] {
   margin-right: 34px;
 }
-.mr-36[data-v-97a17485] {
+.mr-36[data-v-83e11129] {
   margin-right: 36px;
 }
-.pt-0[data-v-97a17485] {
+.pt-0[data-v-83e11129] {
   padding-top: 0px;
 }
-.pt-1[data-v-97a17485] {
+.pt-1[data-v-83e11129] {
   padding-top: 1px;
 }
-.pt-2[data-v-97a17485] {
+.pt-2[data-v-83e11129] {
   padding-top: 2px;
 }
-.pt-3[data-v-97a17485] {
+.pt-3[data-v-83e11129] {
   padding-top: 3px;
 }
-.pt-4[data-v-97a17485] {
+.pt-4[data-v-83e11129] {
   padding-top: 4px;
 }
-.pt-5[data-v-97a17485] {
+.pt-5[data-v-83e11129] {
   padding-top: 5px;
 }
-.pt-6[data-v-97a17485] {
+.pt-6[data-v-83e11129] {
   padding-top: 6px;
 }
-.pt-7[data-v-97a17485] {
+.pt-7[data-v-83e11129] {
   padding-top: 7px;
 }
-.pt-8[data-v-97a17485] {
+.pt-8[data-v-83e11129] {
   padding-top: 8px;
 }
-.pt-9[data-v-97a17485] {
+.pt-9[data-v-83e11129] {
   padding-top: 9px;
 }
-.pt-10[data-v-97a17485] {
+.pt-10[data-v-83e11129] {
   padding-top: 10px;
 }
-.pt-12[data-v-97a17485] {
+.pt-12[data-v-83e11129] {
   padding-top: 12px;
 }
-.pt-14[data-v-97a17485] {
+.pt-14[data-v-83e11129] {
   padding-top: 14px;
 }
-.pt-16[data-v-97a17485] {
+.pt-16[data-v-83e11129] {
   padding-top: 16px;
 }
-.pt-18[data-v-97a17485] {
+.pt-18[data-v-83e11129] {
   padding-top: 18px;
 }
-.pt-20[data-v-97a17485] {
+.pt-20[data-v-83e11129] {
   padding-top: 20px;
 }
-.pt-22[data-v-97a17485] {
+.pt-22[data-v-83e11129] {
   padding-top: 22px;
 }
-.pt-24[data-v-97a17485] {
+.pt-24[data-v-83e11129] {
   padding-top: 24px;
 }
-.pt-26[data-v-97a17485] {
+.pt-26[data-v-83e11129] {
   padding-top: 26px;
 }
-.pt-28[data-v-97a17485] {
+.pt-28[data-v-83e11129] {
   padding-top: 28px;
 }
-.pt-30[data-v-97a17485] {
+.pt-30[data-v-83e11129] {
   padding-top: 30px;
 }
-.pt-32[data-v-97a17485] {
+.pt-32[data-v-83e11129] {
   padding-top: 32px;
 }
-.pt-34[data-v-97a17485] {
+.pt-34[data-v-83e11129] {
   padding-top: 34px;
 }
-.pt-36[data-v-97a17485] {
+.pt-36[data-v-83e11129] {
   padding-top: 36px;
 }
-.pb-0[data-v-97a17485] {
+.pb-0[data-v-83e11129] {
   padding-bottom: 0px;
 }
-.pb-1[data-v-97a17485] {
+.pb-1[data-v-83e11129] {
   padding-bottom: 1px;
 }
-.pb-2[data-v-97a17485] {
+.pb-2[data-v-83e11129] {
   padding-bottom: 2px;
 }
-.pb-3[data-v-97a17485] {
+.pb-3[data-v-83e11129] {
   padding-bottom: 3px;
 }
-.pb-4[data-v-97a17485] {
+.pb-4[data-v-83e11129] {
   padding-bottom: 4px;
 }
-.pb-5[data-v-97a17485] {
+.pb-5[data-v-83e11129] {
   padding-bottom: 5px;
 }
-.pb-6[data-v-97a17485] {
+.pb-6[data-v-83e11129] {
   padding-bottom: 6px;
 }
-.pb-7[data-v-97a17485] {
+.pb-7[data-v-83e11129] {
   padding-bottom: 7px;
 }
-.pb-8[data-v-97a17485] {
+.pb-8[data-v-83e11129] {
   padding-bottom: 8px;
 }
-.pb-9[data-v-97a17485] {
+.pb-9[data-v-83e11129] {
   padding-bottom: 9px;
 }
-.pb-10[data-v-97a17485] {
+.pb-10[data-v-83e11129] {
   padding-bottom: 10px;
 }
-.pb-12[data-v-97a17485] {
+.pb-12[data-v-83e11129] {
   padding-bottom: 12px;
 }
-.pb-14[data-v-97a17485] {
+.pb-14[data-v-83e11129] {
   padding-bottom: 14px;
 }
-.pb-16[data-v-97a17485] {
+.pb-16[data-v-83e11129] {
   padding-bottom: 16px;
 }
-.pb-18[data-v-97a17485] {
+.pb-18[data-v-83e11129] {
   padding-bottom: 18px;
 }
-.pb-20[data-v-97a17485] {
+.pb-20[data-v-83e11129] {
   padding-bottom: 20px;
 }
-.pb-22[data-v-97a17485] {
+.pb-22[data-v-83e11129] {
   padding-bottom: 22px;
 }
-.pb-24[data-v-97a17485] {
+.pb-24[data-v-83e11129] {
   padding-bottom: 24px;
 }
-.pb-26[data-v-97a17485] {
+.pb-26[data-v-83e11129] {
   padding-bottom: 26px;
 }
-.pb-28[data-v-97a17485] {
+.pb-28[data-v-83e11129] {
   padding-bottom: 28px;
 }
-.pb-30[data-v-97a17485] {
+.pb-30[data-v-83e11129] {
   padding-bottom: 30px;
 }
-.pb-32[data-v-97a17485] {
+.pb-32[data-v-83e11129] {
   padding-bottom: 32px;
 }
-.pb-34[data-v-97a17485] {
+.pb-34[data-v-83e11129] {
   padding-bottom: 34px;
 }
-.pb-36[data-v-97a17485] {
+.pb-36[data-v-83e11129] {
   padding-bottom: 36px;
 }
-.pl-0[data-v-97a17485] {
+.pl-0[data-v-83e11129] {
   padding-left: 0px;
 }
-.pl-1[data-v-97a17485] {
+.pl-1[data-v-83e11129] {
   padding-left: 1px;
 }
-.pl-2[data-v-97a17485] {
+.pl-2[data-v-83e11129] {
   padding-left: 2px;
 }
-.pl-3[data-v-97a17485] {
+.pl-3[data-v-83e11129] {
   padding-left: 3px;
 }
-.pl-4[data-v-97a17485] {
+.pl-4[data-v-83e11129] {
   padding-left: 4px;
 }
-.pl-5[data-v-97a17485] {
+.pl-5[data-v-83e11129] {
   padding-left: 5px;
 }
-.pl-6[data-v-97a17485] {
+.pl-6[data-v-83e11129] {
   padding-left: 6px;
 }
-.pl-7[data-v-97a17485] {
+.pl-7[data-v-83e11129] {
   padding-left: 7px;
 }
-.pl-8[data-v-97a17485] {
+.pl-8[data-v-83e11129] {
   padding-left: 8px;
 }
-.pl-9[data-v-97a17485] {
+.pl-9[data-v-83e11129] {
   padding-left: 9px;
 }
-.pl-10[data-v-97a17485] {
+.pl-10[data-v-83e11129] {
   padding-left: 10px;
 }
-.pl-12[data-v-97a17485] {
+.pl-12[data-v-83e11129] {
   padding-left: 12px;
 }
-.pl-14[data-v-97a17485] {
+.pl-14[data-v-83e11129] {
   padding-left: 14px;
 }
-.pl-16[data-v-97a17485] {
+.pl-16[data-v-83e11129] {
   padding-left: 16px;
 }
-.pl-18[data-v-97a17485] {
+.pl-18[data-v-83e11129] {
   padding-left: 18px;
 }
-.pl-20[data-v-97a17485] {
+.pl-20[data-v-83e11129] {
   padding-left: 20px;
 }
-.pl-22[data-v-97a17485] {
+.pl-22[data-v-83e11129] {
   padding-left: 22px;
 }
-.pl-24[data-v-97a17485] {
+.pl-24[data-v-83e11129] {
   padding-left: 24px;
 }
-.pl-26[data-v-97a17485] {
+.pl-26[data-v-83e11129] {
   padding-left: 26px;
 }
-.pl-28[data-v-97a17485] {
+.pl-28[data-v-83e11129] {
   padding-left: 28px;
 }
-.pl-30[data-v-97a17485] {
+.pl-30[data-v-83e11129] {
   padding-left: 30px;
 }
-.pl-32[data-v-97a17485] {
+.pl-32[data-v-83e11129] {
   padding-left: 32px;
 }
-.pl-34[data-v-97a17485] {
+.pl-34[data-v-83e11129] {
   padding-left: 34px;
 }
-.pl-36[data-v-97a17485] {
+.pl-36[data-v-83e11129] {
   padding-left: 36px;
 }
-.pr-0[data-v-97a17485] {
+.pr-0[data-v-83e11129] {
   padding-right: 0px;
 }
-.pr-1[data-v-97a17485] {
+.pr-1[data-v-83e11129] {
   padding-right: 1px;
 }
-.pr-2[data-v-97a17485] {
+.pr-2[data-v-83e11129] {
   padding-right: 2px;
 }
-.pr-3[data-v-97a17485] {
+.pr-3[data-v-83e11129] {
   padding-right: 3px;
 }
-.pr-4[data-v-97a17485] {
+.pr-4[data-v-83e11129] {
   padding-right: 4px;
 }
-.pr-5[data-v-97a17485] {
+.pr-5[data-v-83e11129] {
   padding-right: 5px;
 }
-.pr-6[data-v-97a17485] {
+.pr-6[data-v-83e11129] {
   padding-right: 6px;
 }
-.pr-7[data-v-97a17485] {
+.pr-7[data-v-83e11129] {
   padding-right: 7px;
 }
-.pr-8[data-v-97a17485] {
+.pr-8[data-v-83e11129] {
   padding-right: 8px;
 }
-.pr-9[data-v-97a17485] {
+.pr-9[data-v-83e11129] {
   padding-right: 9px;
 }
-.pr-10[data-v-97a17485] {
+.pr-10[data-v-83e11129] {
   padding-right: 10px;
 }
-.pr-12[data-v-97a17485] {
+.pr-12[data-v-83e11129] {
   padding-right: 12px;
 }
-.pr-14[data-v-97a17485] {
+.pr-14[data-v-83e11129] {
   padding-right: 14px;
 }
-.pr-16[data-v-97a17485] {
+.pr-16[data-v-83e11129] {
   padding-right: 16px;
 }
-.pr-18[data-v-97a17485] {
+.pr-18[data-v-83e11129] {
   padding-right: 18px;
 }
-.pr-20[data-v-97a17485] {
+.pr-20[data-v-83e11129] {
   padding-right: 20px;
 }
-.pr-22[data-v-97a17485] {
+.pr-22[data-v-83e11129] {
   padding-right: 22px;
 }
-.pr-24[data-v-97a17485] {
+.pr-24[data-v-83e11129] {
   padding-right: 24px;
 }
-.pr-26[data-v-97a17485] {
+.pr-26[data-v-83e11129] {
   padding-right: 26px;
 }
-.pr-28[data-v-97a17485] {
+.pr-28[data-v-83e11129] {
   padding-right: 28px;
 }
-.pr-30[data-v-97a17485] {
+.pr-30[data-v-83e11129] {
   padding-right: 30px;
 }
-.pr-32[data-v-97a17485] {
+.pr-32[data-v-83e11129] {
   padding-right: 32px;
 }
-.pr-34[data-v-97a17485] {
+.pr-34[data-v-83e11129] {
   padding-right: 34px;
 }
-.pr-36[data-v-97a17485] {
+.pr-36[data-v-83e11129] {
   padding-right: 36px;
 }
-html[data-v-97a17485] {
+html[data-v-83e11129] {
   --primary-color: #00703d;
   --primary-disabled-color: #99c6b1;
   --primary-bg-color: #edf8ef;
@@ -7624,37 +7634,37 @@ html[data-v-97a17485] {
   --warn-2: #fff6e7;
   --antd-wave-shadow-color: var(--primary-color) !important;
 }
-span[data-v-97a17485] {
+span[data-v-83e11129] {
   color: var(--text-1);
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 }
-.text-1[data-v-97a17485] {
+.text-1[data-v-83e11129] {
   color: var(--text-1);
 }
-.text-2[data-v-97a17485] {
+.text-2[data-v-83e11129] {
   color: var(--text-2);
 }
-.text-3[data-v-97a17485] {
+.text-3[data-v-83e11129] {
   color: var(--text-3);
 }
-.text-4[data-v-97a17485] {
+.text-4[data-v-83e11129] {
   color: var(--text-4);
 }
-.white[data-v-97a17485] {
+.white[data-v-83e11129] {
   color: var(--white);
 }
-.primary-color[data-v-97a17485] {
+.primary-color[data-v-83e11129] {
   color: var(--primary-color);
 }
-.error-color[data-v-97a17485] {
+.error-color[data-v-83e11129] {
   color: var(--error-1);
 }
-.neutral-icon[data-v-97a17485] {
+.neutral-icon[data-v-83e11129] {
   color: var(--neutral-icon);
 }
-.style-wrapper[data-v-97a17485] {
+.style-wrapper[data-v-83e11129] {
   position: fixed;
   top: 0;
   left: 0;
@@ -7663,10 +7673,10 @@ span[data-v-97a17485] {
   z-index: 999;
   pointer-events: none;
 }
-.style-wrapper[data-v-97a17485] > * {
+.style-wrapper[data-v-83e11129] > * {
   pointer-events: auto;
 }
-.entrance-style[data-v-97a17485] {
+.entrance-style[data-v-83e11129] {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7683,16 +7693,16 @@ span[data-v-97a17485] {
   height: var(--height);
   cursor: pointer;
 }
-.entrance-style[data-v-97a17485]:hover {
+.entrance-style[data-v-83e11129]:hover {
   scale: 1.1;
 }
-.entrance-style.entrance-type-circle[data-v-97a17485] {
+.entrance-style.entrance-type-circle[data-v-83e11129] {
   border-radius: 50%;
 }
-.entrance-style.entrance-type-none[data-v-97a17485] {
+.entrance-style.entrance-type-none[data-v-83e11129] {
   display: none;
 }
-.entrance-label[data-v-97a17485] {
+.entrance-label[data-v-83e11129] {
   color: white;
   user-select: none;
   font-weight: 500;
@@ -7701,18 +7711,18 @@ span[data-v-97a17485] {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.entrance-label.entrance-label-rect[data-v-97a17485] {
+.entrance-label.entrance-label-rect[data-v-83e11129] {
   writing-mode: vertical-lr;
   letter-spacing: var(--lang-spacing);
   font-size: 14px;
   line-height: 20px;
   height: calc(var(--height) - 48px);
 }
-.entrance-label.entrance-label-square[data-v-97a17485] {
+.entrance-label.entrance-label-square[data-v-83e11129] {
   line-height: 14px;
   width: calc(var(--width) - 20px);
 }
-.entrance-label.entrance-label-circle[data-v-97a17485] {
+.entrance-label.entrance-label-circle[data-v-83e11129] {
   line-height: 14px;
   width: calc(var(--width) - 20px);
 }
@@ -25746,14 +25756,35 @@ function useLang() {
     setLanguage
   };
 }
-var MessageType$1 = /* @__PURE__ */ ((MessageType2) => {
+var MessageType = /* @__PURE__ */ ((MessageType2) => {
   MessageType2["QU"] = "queueUpdate";
   MessageType2["CC"] = "chatConnect";
+  MessageType2["CD"] = "chatDisconnect";
+  MessageType2["ET"] = "eventTerminate";
   MessageType2["TEXT"] = "text";
   MessageType2["BINARY"] = "binary";
   MessageType2["RECOM"] = "recommendations";
   return MessageType2;
-})(MessageType$1 || {});
+})(MessageType || {});
+var SenderType = /* @__PURE__ */ ((SenderType2) => {
+  SenderType2["AGENT"] = "agent";
+  SenderType2["CUSTOM"] = "custom";
+  SenderType2["SYS"] = "system";
+  return SenderType2;
+})(SenderType || {});
+var ChatStatus = /* @__PURE__ */ ((ChatStatus2) => {
+  ChatStatus2[ChatStatus2["WAITING"] = 0] = "WAITING";
+  ChatStatus2[ChatStatus2["ROBOT"] = 1] = "ROBOT";
+  ChatStatus2[ChatStatus2["AGENT"] = 2] = "AGENT";
+  ChatStatus2[ChatStatus2["TERMINATION"] = 3] = "TERMINATION";
+  return ChatStatus2;
+})(ChatStatus || {});
+var SenderIdType = /* @__PURE__ */ ((SenderIdType2) => {
+  SenderIdType2[SenderIdType2["SYS"] = -1] = "SYS";
+  SenderIdType2[SenderIdType2["TO_AGENT"] = -2] = "TO_AGENT";
+  SenderIdType2[SenderIdType2["TO_CUSTOM"] = -3] = "TO_CUSTOM";
+  return SenderIdType2;
+})(SenderIdType || {});
 const PACKET_TYPES = /* @__PURE__ */ Object.create(null);
 PACKET_TYPES["open"] = "0";
 PACKET_TYPES["close"] = "1";
@@ -29123,6 +29154,175 @@ function useSocketIO(url2, options = {}) {
     isConnected
   };
 }
+const translations = {
+  "en-US": {
+    "session.chat.time": "{month}/{day} {hour}:{minute}",
+    "session.chat.button.placeholder": "Please input ...",
+    "session.chat.button.lineBreak": "Press Shift+Enter to line break",
+    "common.send": "Save",
+    "session.chat.down": " has closed connections",
+    "session.chat.up": " is ready to serve you!",
+    "chat.terminate": "Chat is terminated"
+  },
+  "zh-CN": {
+    "session.chat.time": "{month}月{day}日 {hour}:{minute}",
+    "session.chat.button.placeholder": "请输入消息...",
+    "session.chat.button.lineBreak": "按Shift+Enter换行",
+    "common.send": "发送",
+    "session.chat.down": "已下线",
+    "session.chat.up": "已准备为您服务！",
+    "chat.terminate": "会话已关闭"
+  },
+  "zh-TW": {
+    "session.chat.time": "{month}月{day}日 {hour}:{minute}",
+    "session.chat.button.placeholder": "請輸入消息...",
+    "session.chat.button.lineBreak": "按Shift+Enter換行",
+    "common.send": "發送",
+    "session.chat.down": "已下線",
+    "session.chat.up": "已準備為您服務！",
+    "chat.terminate": "会话已关闭"
+  }
+};
+let currentLocale = "zh-CN";
+const t = (key, params = {}) => {
+  var _a;
+  const text = ((_a = translations[currentLocale]) == null ? void 0 : _a[key]) || translations["zh-CN"][key] || key;
+  return Object.entries(params).reduce((result, [k, v]) => {
+    return result.replace(new RegExp(`{${k}}`, "g"), v);
+  }, text);
+};
+const i18nPlugin = {
+  install(app) {
+    app.config.globalProperties.$t = t;
+    app.provide("i18n", { t, locale: { value: currentLocale } });
+  }
+};
+const useI18n = () => ({
+  t,
+  locale: { value: currentLocale }
+});
+const useChatStore = /* @__PURE__ */ defineStore("chat-store", () => {
+  const state = reactive({
+    chatId: "0",
+    chatStatus: ChatStatus.TERMINATION,
+    channelId: "0",
+    currentAgent: "agent-0",
+    chatInfo: [],
+    sendDisable: true
+  });
+  const { t: t2 } = useI18n();
+  const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
+  const channel = localStorage.getItem("__ABOT_CHANNEL__");
+  const ws = useSocketIO(
+    `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
+  );
+  const loadOldChat = (data) => {
+    const oldChat = data.filter((i) => i.messageType !== MessageType.CC).map((r) => ({
+      avatar: r.avatar,
+      content: r.content,
+      contentType: r.contentType,
+      sequenceId: r.sequenceId,
+      timestamp: r.timestamp,
+      sender: r.senderType,
+      username: r.senderName
+    }));
+    state.chatInfo.push(...oldChat.reverse());
+  };
+  const wsConnect = async () => {
+    try {
+      console.log("Socket开始连接...", state.channelId);
+      await ws.connect();
+      ws.on("message", (data) => {
+        const sourceData = JSON.parse(data);
+        console.log("收到源消息：");
+        console.log(sourceData);
+        if (sourceData.messageType === MessageType.CC) {
+          state.chatId = sourceData.chatId;
+          state.chatStatus = 2;
+          state.currentAgent = sourceData.content.split("-")[1];
+          state.sendDisable = false;
+          const thisChat = {
+            avatar: "0",
+            content: sourceData.content + t2("session.chat.up"),
+            contentType: sourceData.contentType,
+            sequenceId: sourceData.sequenceId,
+            timestamp: sourceData.timestamp,
+            sender: sourceData.senderType,
+            username: sourceData.senderName ?? "System"
+          };
+          state.chatInfo.push(thisChat);
+        } else if (sourceData.messageType === MessageType.CD) {
+          const thisChat = {
+            avatar: "0",
+            content: sourceData.content + t2("session.chat.down"),
+            contentType: sourceData.contentType,
+            sequenceId: sourceData.sequenceId,
+            timestamp: sourceData.timestamp,
+            sender: sourceData.senderType,
+            username: sourceData.senderName ?? "System"
+          };
+          state.chatInfo.push(thisChat);
+          state.sendDisable = true;
+        } else if (sourceData.messageType === MessageType.TEXT) {
+          if (sourceData.senderType === SenderType.SYS && sourceData.senderId === SenderIdType.TO_AGENT) {
+            return;
+          }
+          const thisChat = {
+            avatar: sourceData.avatar ?? "0",
+            content: sourceData.content,
+            contentType: sourceData.contentType,
+            sequenceId: sourceData.sequenceId,
+            timestamp: sourceData.timestamp,
+            sender: sourceData.senderType,
+            username: sourceData.senderName
+          };
+          state.chatInfo.push(thisChat);
+          console.log(
+            "从" + state.currentAgent + "收到消息:" + sourceData.content
+          );
+        } else if (sourceData.messageType === MessageType.ET) {
+          const thisChat = {
+            avatar: "0",
+            content: t2("chat.terminate"),
+            contentType: sourceData.contentType,
+            sequenceId: sourceData.sequenceId,
+            timestamp: sourceData.timestamp,
+            sender: SenderType.SYS,
+            username: "System"
+          };
+          state.chatInfo.push(thisChat);
+        }
+      });
+      ws.on("connect_error", (error) => {
+        console.error("❌ Socket.IO 连接错误:", error);
+      });
+      ws.on("connect_timeout", (timeout) => {
+        console.error("⏰ Socket.IO 连接超时:", timeout);
+      });
+      ws.on("error", (error) => {
+        console.error("🚨 Socket.IO 错误:", error);
+      });
+      ws.on("disconnect", (reason) => {
+        console.log("🔌 Socket.IO 断开连接:", reason);
+      });
+    } catch (error) {
+      console.error("连接失败", error);
+    }
+  };
+  const wsSend = async (query) => {
+    ws.emit("message", JSON.stringify(query));
+  };
+  const wsClose = () => {
+    ws.disconnect();
+  };
+  return {
+    ...toRefs(state),
+    wsConnect,
+    wsClose,
+    wsSend,
+    loadOldChat
+  };
+});
 var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof window !== "undefined" ? window : typeof self !== "undefined" ? self : {};
 function getDefaultExportFromCjs(x) {
   return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default") ? x["default"] : x;
@@ -29419,74 +29619,6 @@ var dayjs_min = { exports: {} };
 })(dayjs_min);
 var dayjs_minExports = dayjs_min.exports;
 const dayjs = /* @__PURE__ */ getDefaultExportFromCjs(dayjs_minExports);
-var MessageType = /* @__PURE__ */ ((MessageType2) => {
-  MessageType2["QU"] = "queueUpdate";
-  MessageType2["CC"] = "chatConnect";
-  MessageType2["TEXT"] = "text";
-  MessageType2["BINARY"] = "binary";
-  MessageType2["RECOM"] = "recommendations";
-  return MessageType2;
-})(MessageType || {});
-const useChatStore = /* @__PURE__ */ defineStore("chat-store", () => {
-  const state = reactive({
-    chatId: "0",
-    chatStatus: 3,
-    channelId: "0",
-    currentAgent: "agent-0",
-    chatInfo: []
-  });
-  const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
-  const channel = localStorage.getItem("__ABOT_CHANNEL__");
-  const ws = useSocketIO(
-    `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
-  );
-  const wsConnect = async () => {
-    try {
-      console.log("Socket开始连接...", state.channelId);
-      await ws.connect();
-      ws.on("message", (data) => {
-        const sourceData = JSON.parse(data);
-        console.log("收到源消息：");
-        console.log(sourceData);
-        if (sourceData.messageType === MessageType.CC) {
-          state.chatId = sourceData.chatId;
-          state.chatStatus = 2;
-          state.currentAgent = sourceData.content.split("-")[1];
-        } else if (sourceData.messageType === MessageType.TEXT) {
-          console.log(
-            "从" + state.currentAgent + "收到消息:" + sourceData.content
-          );
-        }
-      });
-      ws.on("connect_error", (error) => {
-        console.error("❌ Socket.IO 连接错误:", error);
-      });
-      ws.on("connect_timeout", (timeout) => {
-        console.error("⏰ Socket.IO 连接超时:", timeout);
-      });
-      ws.on("error", (error) => {
-        console.error("🚨 Socket.IO 错误:", error);
-      });
-      ws.on("disconnect", (reason) => {
-        console.log("🔌 Socket.IO 断开连接:", reason);
-      });
-    } catch (error) {
-      console.error("连接失败", error);
-    }
-  };
-  const wsSend = async (query) => {
-    ws.emit("message", JSON.stringify(query));
-  };
-  const wsClose = () => {
-    ws.disconnect();
-  };
-  return {
-    ...toRefs(state),
-    wsConnect,
-    wsClose,
-    wsSend
-  };
-});
 function useChatInput() {
   const inputText = ref("");
   const textareaRef = ref();
@@ -29521,15 +29653,27 @@ function useChatInput() {
     const message = inputText.value.trim();
     if (!message)
       return;
+    const currentTime = dayjs().format("YYYY-MM-DD HH:mm:ss");
     console.log("发送消息:", message);
     const query = {
       chatId: cStore.chatId,
-      messageType: MessageType$1.TEXT,
+      messageType: MessageType.TEXT,
       language: getUCLang(),
       contentType: "text/plain",
       content: message,
-      timestamp: dayjs().format("YYYY-MM-DD HH:mm:ss")
+      timestamp: currentTime
     };
+    const thisChat = {
+      avatar: "1",
+      // 网页渠道客户默认头像
+      content: message,
+      contentType: "text/plain",
+      sequenceId: "unknown",
+      timestamp: currentTime,
+      sender: "custom",
+      username: "custom"
+    };
+    cStore.chatInfo.push(thisChat);
     cStore.wsSend(query);
     inputText.value = "";
     resetHeight();
@@ -29561,18 +29705,24 @@ const _sfc_main$9 = /* @__PURE__ */ defineComponent({
     }
   },
   setup() {
+    const cStore = useChatStore();
+    const sendDisabled = computed(() => cStore.sendDisable);
     const { inputText, textareaRef, handleKeydown, autoResize, sendMessage } = useChatInput();
     const handleSend = () => {
       sendMessage();
     };
-    return { handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage };
+    return { cStore, sendDisabled, handleSend, inputText, textareaRef, handleKeydown, autoResize, sendMessage };
   }
 });
-const CustomerInputCard_vue_vue_type_style_index_0_scoped_27f50aad_lang = "";
+const CustomerInputCard_vue_vue_type_style_index_0_scoped_ddc49f7e_lang = "";
 const _hoisted_1$9 = { class: "chat-input-card" };
 const _hoisted_2$3 = ["placeholder"];
 const _hoisted_3$2 = { class: "send-button-container" };
 const _hoisted_4$1 = { class: "w-400 s-12 l-20 text-4" };
+const _hoisted_5 = {
+  key: 0,
+  class: "disable-mask"
+};
 function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_CustomerInputToolbar = resolveComponent("CustomerInputToolbar");
   const _component_PrimaryButton = resolveComponent("PrimaryButton");
@@ -29596,10 +29746,11 @@ function _sfc_render$8(_ctx, _cache, $props, $setup, $data, $options) {
         onClick: _ctx.handleSend,
         "force-color": _ctx.color
       }, null, 8, ["onClick", "force-color"])
-    ])
+    ]),
+    _ctx.sendDisabled || _ctx.cStore.chatStatus === 3 ? (openBlock(), createElementBlock("div", _hoisted_5)) : createCommentVNode("", true)
   ]);
 }
-const CustomerInputCard = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-27f50aad"]]);
+const CustomerInputCard = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-ddc49f7e"]]);
 const _sfc_main$8 = /* @__PURE__ */ defineComponent({
   name: "TimeStamp",
   props: {
@@ -29745,14 +29896,17 @@ const _sfc_main$4 = /* @__PURE__ */ defineComponent({
     return { color: color2 };
   }
 });
-const CustomerContent_vue_vue_type_style_index_0_scoped_079a325a_lang = "";
+const CustomerContent_vue_vue_type_style_index_0_scoped_d1e6fcc1_lang = "";
 const _hoisted_1$4 = { class: "chat-content" };
 const _hoisted_2$1 = { class: "main-chat-wrapper" };
 const _hoisted_3 = {
   key: 0,
   class: "w-500 s-12 l-20 username-label"
 };
-const _hoisted_4 = { class: "w-400 s-14 l-20" };
+const _hoisted_4 = {
+  class: "w-400 s-14 l-20",
+  style: { "white-space": "pre-line" }
+};
 function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_TimeStamp = resolveComponent("TimeStamp");
   const _component_ChannelAvatar = resolveComponent("ChannelAvatar");
@@ -29780,7 +29934,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
     ], 2)
   ]);
 }
-const CustomerContent = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-079a325a"]]);
+const CustomerContent = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["render", _sfc_render$3], ["__scopeId", "data-v-d1e6fcc1"]]);
 const _sfc_main$3 = /* @__PURE__ */ defineComponent({
   name: "CustomContainer",
   components: { CustomerContent },
@@ -29791,22 +29945,51 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     }
   },
   setup() {
-    const testCurrentBox = [
-      { sequenceId: 1, username: "user_fak3", avatar: "1", content: "asdawewadkc", timestamp: "2025-07-08 12:34:56", isFirst: true, isMe: true },
-      { sequenceId: 2, username: "客服一号", avatar: "5", content: "你在说什么？", timestamp: "2025-07-08 12:42:16", isFirst: true, isMe: false },
-      { sequenceId: 4, username: "客服一号", avatar: "5", content: "你是机器人吗？", timestamp: "2025-07-08 12:42:37", isFirst: false, isMe: false },
-      { sequenceId: 5, username: "user_fak3", avatar: "1", content: "刚才猫爬键盘上了", timestamp: "2025-07-08 12:42:56", isFirst: true, isMe: true }
-    ];
-    return { testCurrentBox };
+    const cStore = useChatStore();
+    const chatRef = ref();
+    const currentChatBox = computed(() => {
+      const chats = cStore.chatInfo;
+      return chats.map((chat, index) => {
+        const previousChat = index > 0 ? chats[index - 1] : null;
+        return {
+          ...chat,
+          isFirst: !previousChat || chat.sender !== previousChat.sender,
+          isMe: chat.sender === "custom"
+        };
+      });
+    });
+    const scrollToBottom = () => {
+      const scrollContainer = chatRef.value;
+      if (scrollContainer) {
+        scrollContainer.scrollTo({
+          top: scrollContainer.scrollHeight,
+          behavior: "smooth"
+        });
+      }
+    };
+    watch(() => currentChatBox.value, () => {
+      nextTick$1(() => {
+        scrollToBottom();
+      });
+    });
+    onMounted(() => {
+      nextTick$1(() => {
+        scrollToBottom();
+      });
+    });
+    return { currentChatBox, chatRef };
   }
 });
-const CustomerContainer_vue_vue_type_style_index_0_scoped_637449cf_lang = "";
-const _hoisted_1$3 = { class: "chat-container" };
+const CustomerContainer_vue_vue_type_style_index_0_scoped_0bd73be3_lang = "";
+const _hoisted_1$3 = {
+  class: "chat-container",
+  ref: "chatRef"
+};
 function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_CustomerContent = resolveComponent("CustomerContent");
   return openBlock(), createElementBlock("div", _hoisted_1$3, [
     _cache[0] || (_cache[0] = createBaseVNode("div", null, null, -1)),
-    (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.testCurrentBox, (chat) => {
+    (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.currentChatBox, (chat) => {
       return openBlock(), createBlock(_component_CustomerContent, {
         key: chat.sequenceId,
         username: chat.username,
@@ -29818,9 +30001,9 @@ function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
         "bubble-color": _ctx.color
       }, null, 8, ["username", "avatar", "text", "timestamp", "is-first", "is-me", "bubble-color"]);
     }), 128))
-  ]);
+  ], 512);
 }
-const CustomerContainer = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__scopeId", "data-v-637449cf"]]);
+const CustomerContainer = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["render", _sfc_render$2], ["__scopeId", "data-v-0bd73be3"]]);
 const _hoisted_1$2 = ["width", "height"];
 const _hoisted_2 = ["stroke"];
 const _sfc_main$2 = /* @__PURE__ */ defineComponent({
@@ -30062,6 +30245,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
         if (latestChatData.data !== null) {
           cStore.chatId = latestChatData.data.chatId;
           cStore.chatStatus = latestChatData.data.status;
+          cStore.sendDisable = latestChatData.data.status === 0 ? true : false;
         }
       }
       if (cStore.chatId !== "0") {
@@ -30069,6 +30253,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
         const history = await getChatHistory(cStore.chatId, props.config.configId);
         const historyData = await history.json();
         console.log(historyData.data);
+        cStore.loadOldChat(historyData.data);
       }
       await cStore.wsConnect();
     });
@@ -30115,7 +30300,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     };
   }
 });
-const CustomerWindow_vue_vue_type_style_index_0_scoped_97a17485_lang = "";
+const CustomerWindow_vue_vue_type_style_index_0_scoped_83e11129_lang = "";
 const _hoisted_1 = ["src"];
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_ChatDialog = resolveComponent("ChatDialog");
@@ -30163,47 +30348,9 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     }, null, 8, ["props"])) : createCommentVNode("", true)
   ], 4);
 }
-const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-97a17485"]]);
+const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-83e11129"]]);
 const font = "";
 const color = "";
-const translations = {
-  "en-US": {
-    "session.chat.time": "{month}/{day} {hour}:{minute}",
-    "session.chat.button.placeholder": "Please input ...",
-    "session.chat.button.lineBreak": "Press Shift+Enter to line break",
-    "common.send": "Save"
-  },
-  "zh-CN": {
-    "session.chat.time": "{month}月{day}日 {hour}:{minute}",
-    "session.chat.button.placeholder": "请输入消息...",
-    "session.chat.button.lineBreak": "按Shift+Enter换行",
-    "common.send": "发送"
-  },
-  "zh-TW": {
-    "session.chat.time": "{month}月{day}日 {hour}:{minute}",
-    "session.chat.button.placeholder": "請輸入消息...",
-    "session.chat.button.lineBreak": "按Shift+Enter換行",
-    "common.send": "發送"
-  }
-};
-let currentLocale = "zh-CN";
-const t = (key, params = {}) => {
-  var _a;
-  const text = ((_a = translations[currentLocale]) == null ? void 0 : _a[key]) || translations["zh-CN"][key] || key;
-  return Object.entries(params).reduce((result, [k, v]) => {
-    return result.replace(new RegExp(`{${k}}`, "g"), v);
-  }, text);
-};
-const i18nPlugin = {
-  install(app) {
-    app.config.globalProperties.$t = t;
-    app.provide("i18n", { t, locale: { value: currentLocale } });
-  }
-};
-const useI18n = () => ({
-  t,
-  locale: { value: currentLocale }
-});
 window.useI18n = useI18n;
 async function initABot() {
   console.log("🚀 ABot开始初始化");
