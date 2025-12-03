@@ -37,8 +37,8 @@ export const useChatStore = defineStore("chat-store", () => {
   const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
   const channel = localStorage.getItem("__ABOT_CHANNEL__");
   const ws = useSocketIO(
-    // `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
-    `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
+    `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
+    // `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
   );
 
   const loadOldChat = (data: any) => {

@@ -20007,8 +20007,8 @@
     const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
     const channel = localStorage.getItem("__ABOT_CHANNEL__");
     const ws = useSocketIO(
-      // `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
-      `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
+      `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
+      // `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
     );
     const loadOldChat = (data) => {
       const oldChat = data.filter((i) => i.messageType !== MessageType.CC).map((r) => ({
@@ -20567,8 +20567,9 @@
     return openBlock(), createElementBlock("span", _hoisted_1$8, toDisplayString(_ctx.$t("session.chat.time", { month: _ctx.month, day: _ctx.day, hour: _ctx.hour, minute: _ctx.min })), 1);
   }
   const TimeStamp = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$7], ["__scopeId", "data-v-f8d6588a"]]);
+  const CDN_URL = {}.CDN_URL;
   const getImgUrl = (url2, imgType = "") => {
-    return `${url2}${imgType !== "" ? "." : ""}${imgType}`;
+    return `${CDN_URL}${url2}${imgType !== "" ? "." : ""}${imgType}`;
   };
   const _sfc_main$7 = /* @__PURE__ */ defineComponent({
     name: "AvatarImg",
@@ -20926,7 +20927,7 @@
       wrapperWidth
     };
   }
-  const BASE = "https://testwww.abot.pro";
+  const BASE = "http://localhost:9999";
   async function makeRequest(config) {
     const { method, endpoint, channelId, body, urlParams } = config;
     const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
