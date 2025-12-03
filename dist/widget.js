@@ -29214,8 +29214,8 @@ const useChatStore = /* @__PURE__ */ defineStore("chat-store", () => {
   const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
   const channel = localStorage.getItem("__ABOT_CHANNEL__");
   const ws = useSocketIO(
-    `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
-    // `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
+    // `http://localhost:9999/websocket/socket.io?token=${token}&channelId=${channel}`
+    `https://testwww.abot.pro/websocket/socket.io?token=${token}&channelId=${channel}`
   );
   const loadOldChat = (data) => {
     const oldChat = data.filter((i) => i.messageType !== MessageType.CC).map((r) => ({
