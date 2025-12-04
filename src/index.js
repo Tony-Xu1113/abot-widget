@@ -79,8 +79,8 @@ async function fetchUserConfig(configId) {
     localStorage.setItem("__ABOT_PLUGIN_USERNAME__", username);
 
     // API配置
-    const API_BASE_URL = "http://localhost:9999/auth/oauth2/token";
-    // const API_BASE_URL = "https://123.ngrok-free.app/auth/oauth2/token";
+    // const API_BASE_URL = "http://localhost:9999/auth/oauth2/token";
+    const API_BASE_URL = "https://testwww.abot.pro/auth/oauth2/token";
     const API_ENDPOINT = `${API_BASE_URL}?username=${username}&password=123&grant_type=password&scope=server`;
 
     // 请求头配置

@@ -4,6 +4,7 @@ import vue from "@vitejs/plugin-vue";
 import { resolve } from "path";
 
 export default defineConfig({
+  base: "https://cdn.jsdelivr.net/gh/Tony-Xu1113/abot-widget@v0.3.0/dist/",
   plugins: [
     vue({
       template: {

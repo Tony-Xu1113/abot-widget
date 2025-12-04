@@ -20567,7 +20567,7 @@
     return openBlock(), createElementBlock("span", _hoisted_1$8, toDisplayString(_ctx.$t("session.chat.time", { month: _ctx.month, day: _ctx.day, hour: _ctx.hour, minute: _ctx.min })), 1);
   }
   const TimeStamp = /* @__PURE__ */ _export_sfc(_sfc_main$8, [["render", _sfc_render$7], ["__scopeId", "data-v-f8d6588a"]]);
-  const CDN_URL = {}.CDN_URL;
+  const CDN_URL = "https://cdn.jsdelivr.net/gh/Tony-Xu1113/abot-widget@v0.3.0/dist/";
   const getImgUrl = (url2, imgType = "") => {
     return `${CDN_URL}${url2}${imgType !== "" ? "." : ""}${imgType}`;
   };
@@ -21192,7 +21192,7 @@
       }
       const username = getOrCreateUserUUID();
       localStorage.setItem("__ABOT_PLUGIN_USERNAME__", username);
-      const API_BASE_URL = "http://localhost:9999/auth/oauth2/token";
+      const API_BASE_URL = "https://testwww.abot.pro/auth/oauth2/token";
       const API_ENDPOINT = `${API_BASE_URL}?username=${username}&password=123&grant_type=password&scope=server`;
       const headers = {
         "Content-Type": "application/json"
