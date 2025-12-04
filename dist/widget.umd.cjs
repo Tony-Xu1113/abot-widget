@@ -20931,7 +20931,6 @@
   async function makeRequest(config) {
     const { method, endpoint, channelId, body, urlParams } = config;
     const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
-    console.log(BASE);
     let url2 = BASE + endpoint;
     if (urlParams) {
       url2 += urlParams;
@@ -21023,8 +21022,8 @@
         },
         delay: "3000",
         boxColor: "#00703d",
-        logo: "/logo/abot-logo-white.png",
-        agentLogo: "/avatar/avatar-0.png",
+        logo: "logo/abot-logo-white.png",
+        agentLogo: "avatar/avatar-0.png",
         boxWidth: 250,
         boxHeight: 560
       });
@@ -21096,7 +21095,7 @@
       };
     }
   });
-  const CustomerWindow_vue_vue_type_style_index_0_scoped_83e11129_lang = "";
+  const CustomerWindow_vue_vue_type_style_index_0_scoped_0b8a227b_lang = "";
   const _hoisted_1 = ["src"];
   function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_ChatDialog = resolveComponent("ChatDialog");
@@ -21144,7 +21143,7 @@
       }, null, 8, ["props"])) : createCommentVNode("", true)
     ], 4);
   }
-  const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-83e11129"]]);
+  const CustomerWindow = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-0b8a227b"]]);
   const font = "";
   const color = "";
   window.useI18n = useI18n;

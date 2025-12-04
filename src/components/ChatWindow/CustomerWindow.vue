@@ -90,8 +90,8 @@ export default defineComponent({
       },
       delay: "3000",
       boxColor: "#00703d",
-      logo: "/logo/abot-logo-white.png",
-      agentLogo: "/avatar/avatar-0.png",
+      logo: "logo/abot-logo-white.png",
+      agentLogo: "avatar/avatar-0.png",
       boxWidth: 250,
       boxHeight: 560
     })
