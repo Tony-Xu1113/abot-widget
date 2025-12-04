@@ -30138,6 +30138,7 @@ const BASE = "http://localhost:9999";
 async function makeRequest(config) {
   const { method, endpoint, channelId, body, urlParams } = config;
   const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
+  console.log(BASE);
   let url2 = BASE + endpoint;
   if (urlParams) {
     url2 += urlParams;

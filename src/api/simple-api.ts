@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_BASE_URL;
+const BASE = import.meta.env.VITE_API_BASE_URL;
 
 enum Api {
   GET_SETTING = "/merchant/channel/website",
@@ -20,7 +20,6 @@ async function makeRequest(config: RequestConfig) {
   const { method, endpoint, channelId, body, urlParams } = config;
 
   const token = localStorage.getItem("__ABOT_ACCESS_TOKEN__");
-
   let url = BASE + endpoint;
   if (urlParams) {
     url += urlParams;
